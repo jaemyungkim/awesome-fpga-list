@@ -7,6 +7,7 @@
 - [Awesome-FPGA-and-HDL](#awesome-fpga-and-hdl)
   - [Summary](#summary)
     - [Awesome List](#awesome-list)
+    - [Blogs](#blogs)
   - [Hardware Description Language](#hardware-description-language)
     - [Scala Implementation](#scals-implementation)
     - [Rust Implementation](#rust-implementation)
@@ -48,6 +49,14 @@
     - [mikeroyal/VHDL-Guide](https://github.com/mikeroyal/VHDL-Guide) <img src="https://img.shields.io/github/stars/mikeroyal/VHDL-Guide?style=social"/> : A guide covering VHDL including the applications, libraries and tools that will make you a better and more efficient with VHDL development.
 
     - [mikeroyal/Verilog-SystemVerilog-Guide](https://github.com/mikeroyal/Verilog-SystemVerilog-Guide) <img src="https://img.shields.io/github/stars/mikeroyal/Verilog-SystemVerilog-Guide?style=social"/> : Verilog/SystemVerilog Guide. A guide covering Verilog & SystemVerilog including the applications, libraries and tools that will make you a better and more efficient developer by having a better understanding of how hardware works on the lowest level.
+
+
+  - ### Blogs
+
+    - 微信公众号「OpenFPGA」
+      - [【国产FPGA】国产FPGA搭建图像处理平台](https://mp.weixin.qq.com/s/Azg69UrhiwKrRtgzaJlCZg)
+
+
 
 
 ## Hardware Description Language
