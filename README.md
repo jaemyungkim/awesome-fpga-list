@@ -12,8 +12,11 @@
     - [Scala Implementation](#scals-implementation)
     - [Rust Implementation](#rust-implementation)
     - [Python Implementation](#python-implementation)
-  - [Applications](#applications)
+  - [FPGA Applications](#fpga-applications)
+    - [RISC-V CPU](#risc-v-cpu)
     - [Object Detection](#object-detection)
+
+
 
 
 ## Summary
@@ -93,7 +96,13 @@
     - [HDL21](https://github.com/dan-fritchman/Hdl21) <img src="https://img.shields.io/github/stars/dan-fritchman/Hdl21?style=social"/> : Analog Hardware Description Library in Python.
 
 
-## Applications
+## FPGA Applications
+
+  - ### RISC-V CPU
+
+    - [MoonbaseOtago/vroom](https://github.com/MoonbaseOtago/vroom) <img src="https://img.shields.io/github/stars/MoonbaseOtago/vroom?style=social"/> : VRoom! RISC-V CPU. A new high-end RISC-V implementation.
+
+
 
   - ### Object Detection
 
