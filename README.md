@@ -66,7 +66,7 @@
 
   - ### Scala Implementation
 
-    - [Chisel](https://github.com/chipsalliance/chisel3) <img src="https://img.shields.io/github/stars/chipsalliance/chisel3?style=social"/> : [Chisel: A Modern Hardware Design Language](www.chisel-lang.org/).
+    - [Chisel](https://github.com/chipsalliance/chisel3) <img src="https://img.shields.io/github/stars/chipsalliance/chisel3?style=social"/> : Chisel: A Modern Hardware Design Language. [www.chisel-lang.org/](www.chisel-lang.org/)
 
     - [SpinalHDL](https://github.com/SpinalHDL/SpinalHDL) <img src="https://img.shields.io/github/stars/SpinalHDL/SpinalHDL?style=social"/> : Scala based HDL.
 
