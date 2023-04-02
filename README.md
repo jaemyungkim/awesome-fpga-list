@@ -116,7 +116,7 @@
 
 
     - #### GPU
-      - [Rocket Chip](https://github.com/THU-DSP-LAB/ventus-gpgpu) <img src="https://img.shields.io/github/stars/THU-DSP-LAB/ventus-gpgpu?style=social"/> : Ventus(承影) GPGPU. GPGPU processor supporting RISCV-V extension, developed with [Chisel](https://github.com/chipsalliance/chisel) HDL.
+      - [Ventus(承影)](https://github.com/THU-DSP-LAB/ventus-gpgpu) <img src="https://img.shields.io/github/stars/THU-DSP-LAB/ventus-gpgpu?style=social"/> : Ventus(承影) GPGPU. GPGPU processor supporting RISCV-V extension, developed with [Chisel](https://github.com/chipsalliance/chisel) HDL.
 
 
   - ### Object Detection
