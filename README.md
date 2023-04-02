@@ -13,7 +13,10 @@
     - [Rust Implementation](#rust-implementation)
     - [Python Implementation](#python-implementation)
   - [FPGA Applications](#fpga-applications)
-    - [RISC-V CPU](#risc-v-cpu)
+    - [Processor Chip](#processor-chip)
+      - [CPU](#cpu)
+        - [RISC-V Architecture](#risc-v-architecture)
+      - [GPU](#gpu)
     - [Object Detection](#object-detection)
 
 
@@ -66,7 +69,7 @@
 
   - ### Scala Implementation
 
-    - [Chisel](https://github.com/chipsalliance/chisel3) <img src="https://img.shields.io/github/stars/chipsalliance/chisel3?style=social"/> : Chisel: A Modern Hardware Design Language. [www.chisel-lang.org/](www.chisel-lang.org/)
+    - [Chisel](https://github.com/chipsalliance/chisel) <img src="https://img.shields.io/github/stars/chipsalliance/chisel3?style=social"/> : Chisel: A Modern Hardware Design Language. [www.chisel-lang.org/](www.chisel-lang.org/)
 
     - [SpinalHDL](https://github.com/SpinalHDL/SpinalHDL) <img src="https://img.shields.io/github/stars/SpinalHDL/SpinalHDL?style=social"/> : Scala based HDL.
 
@@ -96,12 +99,24 @@
     - [HDL21](https://github.com/dan-fritchman/Hdl21) <img src="https://img.shields.io/github/stars/dan-fritchman/Hdl21?style=social"/> : Analog Hardware Description Library in Python.
 
 
+
+
+
 ## FPGA Applications
 
-  - ### RISC-V CPU
+  - ### Processor Chip
 
-    - [MoonbaseOtago/vroom](https://github.com/MoonbaseOtago/vroom) <img src="https://img.shields.io/github/stars/MoonbaseOtago/vroom?style=social"/> : VRoom! RISC-V CPU. A new high-end RISC-V implementation.
+    - #### CPU
 
+      - ##### RISC-V Architecture
+
+        - [Rocket Chip](https://github.com/chipsalliance/rocket-chip) <img src="https://img.shields.io/github/stars/chipsalliance/rocket-chip?style=social"/> : Rocket Chip Generator 🚀. This repository contains the Rocket chip generator necessary to instantiate the RISC-V Rocket Core. 
+
+        - [MoonbaseOtago/vroom](https://github.com/MoonbaseOtago/vroom) <img src="https://img.shields.io/github/stars/MoonbaseOtago/vroom?style=social"/> : VRoom! RISC-V CPU. A new high-end RISC-V implementation.
+
+
+    - #### GPU
+      - [Rocket Chip](https://github.com/THU-DSP-LAB/ventus-gpgpu) <img src="https://img.shields.io/github/stars/THU-DSP-LAB/ventus-gpgpu?style=social"/> : Ventus(承影) GPGPU. GPGPU processor supporting RISCV-V extension, developed with [Chisel](https://github.com/chipsalliance/chisel) HDL.
 
 
   - ### Object Detection
