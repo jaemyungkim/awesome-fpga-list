@@ -17,6 +17,9 @@
       - [CPU](#cpu)
         - [RISC-V Architecture](#risc-v-architecture)
       - [GPU](#gpu)
+    - [IP Core](#ip-core)
+      - [PCIe Core](#pcie-core)
+    - [Spiking Neural Network](#spiking-neural-network)
     - [Object Detection](#object-detection)
 
 
@@ -74,9 +77,13 @@
     - [SpinalHDL](https://github.com/SpinalHDL/SpinalHDL) <img src="https://img.shields.io/github/stars/SpinalHDL/SpinalHDL?style=social"/> : Scala based HDL.
 
 
+
   - ### Rust Implementation
 
     - [Veryl](https://github.com/dalance/veryl) <img src="https://img.shields.io/github/stars/dalance/veryl?style=social"/> : Veryl: A Modern Hardware Description Language.
+
+    - [VHDL-LS/rust_hdl](https://github.com/VHDL-LS/rust_hdl) <img src="https://img.shields.io/github/stars/VHDL-LS/rust_hdl?style=social"/> : This repository contains a fast VHDL language server and analysis library written in Rust.
+
 
 
 
@@ -117,6 +124,35 @@
 
     - #### GPU
       - [Ventus(承影)](https://github.com/THU-DSP-LAB/ventus-gpgpu) <img src="https://img.shields.io/github/stars/THU-DSP-LAB/ventus-gpgpu?style=social"/> : Ventus(承影) GPGPU. GPGPU processor supporting RISCV-V extension, developed with [Chisel](https://github.com/chipsalliance/chisel) HDL.
+
+
+
+  - ### IP Core
+
+    - #### PCIe Core
+
+      - [Reconfigurable-Computing/Xilinx-FPGA-PCIe-XDMA-Tutorial](https://github.com/Reconfigurable-Computing/Xilinx-FPGA-PCIe-XDMA-Tutorial) <img src="https://img.shields.io/github/stars/Reconfigurable-Computing/Xilinx-FPGA-PCIe-XDMA-Tutorial?style=social"/> : Xilinx FPGA PCIe 保姆级教程 ——基于 PCIe XDMA IP核。
+
+      - [enjoy-digital/litepcie](https://github.com/enjoy-digital/litepcie) <img src="https://img.shields.io/github/stars/enjoy-digital/litepcie?style=social"/> : LitePCIe provides a small footprint and configurable PCIe core.
+
+      - [alexforencich/verilog-pcie](https://github.com/alexforencich/verilog-pcie) <img src="https://img.shields.io/github/stars/alexforencich/verilog-pcie?style=social"/> : Verilog PCI Express Components Readme.
+
+
+
+
+
+
+  - ### Spiking Neural Network
+
+    - [ChFrenkel/tinyODIN](https://github.com/ChFrenkel/tinyODIN) <img src="https://img.shields.io/github/stars/ChFrenkel/tinyODIN?style=social"/> : tinyODIN Low-Cost Digital Spiking Neural Network (SNN) Processor.
+
+    - [ChFrenkel/ODIN](https://github.com/ChFrenkel/ODIN) <img src="https://img.shields.io/github/stars/ChFrenkel/ODIN?style=social"/> : ODIN Spiking Neural Network (SNN) Processor.
+
+    - [ChFrenkel/ReckOn](https://github.com/ChFrenkel/ReckOn) <img src="https://img.shields.io/github/stars/ChFrenkel/ReckOn?style=social"/> : ReckOn: A Spiking RNN Processor Enabling On-Chip Learning over Second-Long Timescales.
+
+
+
+
 
 
   - ### Object Detection
