@@ -1,21 +1,21 @@
-# Awesome-FPGA-and-HDL
+# Awesome-FPGA-List
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-🔥🔥🔥 This repository lists some awesome public FPGA and Hardware Description Language projects.
+🔥🔥🔥 This repository lists some awesome public HDL and FPGA projects.
 
 ## Contents
-- [Awesome-FPGA-and-HDL](#awesome-fpga-and-hdl)
+- [Awesome-FPGA-List](#awesome-fpga-list)
   - [Summary](#summary)
     - [Awesome List](#awesome-list)
     - [Blogs](#blogs)
   - [Hardware Description Language](#hardware-description-language)
-    - [Scala Implementation](#scals-implementation)
-    - [Rust Implementation](#rust-implementation)
-    - [Python Implementation](#python-implementation)
+    - [Scala HDL](#scals-hdl)
+    - [Rust HDL](#rust-hdl)
+    - [Python HDL](#python-hdl)
   - [FPGA Applications](#fpga-applications)
     - [Processor Chip](#processor-chip)
       - [CPU](#cpu)
-        - [RISC-V Architecture](#risc-v-architecture)
+        - [RISC-V](#risc-v)
       - [GPU](#gpu)
     - [IP Core](#ip-core)
       - [PCIe Core](#pcie-core)
@@ -70,7 +70,7 @@
 
 ## Hardware Description Language
 
-  - ### Scala Implementation
+  - ### Scala HDL
 
     - [Chisel](https://github.com/chipsalliance/chisel) <img src="https://img.shields.io/github/stars/chipsalliance/chisel3?style=social"/> : Chisel: A Modern Hardware Design Language. [www.chisel-lang.org/](www.chisel-lang.org/)
 
@@ -78,7 +78,7 @@
 
 
 
-  - ### Rust Implementation
+  - ### Rust HDL
 
     - [Veryl](https://github.com/dalance/veryl) <img src="https://img.shields.io/github/stars/dalance/veryl?style=social"/> : Veryl: A Modern Hardware Description Language.
 
@@ -87,7 +87,7 @@
 
 
 
-  - ### Python Implementation
+  - ### Python HDL
 
     - [nMigen](https://github.com/amaranth-lang/amaranth) <img src="https://img.shields.io/github/stars/amaranth-lang/amaranth?style=social"/> : A modern hardware definition language and toolchain based on Python.
 
@@ -115,7 +115,7 @@
 
     - #### CPU
 
-      - ##### RISC-V Architecture
+      - ##### RISC-V
 
         - [Rocket Chip](https://github.com/chipsalliance/rocket-chip) <img src="https://img.shields.io/github/stars/chipsalliance/rocket-chip?style=social"/> : Rocket Chip Generator 🚀. This repository contains the Rocket chip generator necessary to instantiate the RISC-V Rocket Core. 
 
