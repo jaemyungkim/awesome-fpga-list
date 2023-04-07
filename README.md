@@ -7,7 +7,7 @@
 - [Awesome-FPGA-List](#awesome-fpga-list)
   - [Summary](#summary)
     - [Awesome List](#awesome-list)
-    - [Blogs](#blogs)
+    - [Learning Resources](#learning-resources)
   - [Hardware Description Language](#hardware-description-language)
     - [Scala HDL](#scals-hdl)
     - [Rust HDL](#rust-hdl)
@@ -19,9 +19,12 @@
       - [GPU](#gpu)
     - [IP Core](#ip-core)
       - [PCIe Core](#pcie-core)
+    - [Camera Firmware](#camera-firmware)
     - [Spiking Neural Network](#spiking-neural-network)
     - [Object Detection](#object-detection)
 
+
+  - [Blogs](#blogs)
 
 
 
@@ -60,10 +63,12 @@
     - [mikeroyal/Verilog-SystemVerilog-Guide](https://github.com/mikeroyal/Verilog-SystemVerilog-Guide) <img src="https://img.shields.io/github/stars/mikeroyal/Verilog-SystemVerilog-Guide?style=social"/> : Verilog/SystemVerilog Guide. A guide covering Verilog & SystemVerilog including the applications, libraries and tools that will make you a better and more efficient developer by having a better understanding of how hardware works on the lowest level.
 
 
-  - ### Blogs
 
-    - 微信公众号「OpenFPGA」
-      - [【国产FPGA】国产FPGA搭建图像处理平台](https://mp.weixin.qq.com/s/Azg69UrhiwKrRtgzaJlCZg)
+  - ### Learning Resources
+
+    - [sipeed/TangPrimer-20K-example#cam2lcd](https://github.com/sipeed/TangPrimer-20K-example#cam2lcd) <img src="https://img.shields.io/github/stars/sipeed/TangPrimer-20K-example#cam2lcd?style=social"/> : AIoT opensource hardware platform. TangPrimer-20K-example project.
+
+
 
 
 
@@ -139,6 +144,11 @@
 
 
 
+
+
+  - ### Camera Firmware
+
+    - [ChFrenkel/tinyODIN](https://github.com/apertus-open-source-cinema/axiom-firmware) <img src="https://img.shields.io/github/stars/apertus-open-source-cinema/axiom-firmware?style=social"/> : AXIOM Beta Software. Firmware required to boot & operate the [apertus° AXIOM Beta Camera](https://www.apertus.org/axiom-beta). "微信公众号「OpenFPGA」《[世界上最伟大的开源作品-基于FPGA的开源摄影机--Axiom Camera](https://mp.weixin.qq.com/s/MVLeBwgpCvKlrqwaNzv4dA)》"。
 
 
 
@@ -220,3 +230,14 @@
     - [TonyZ1Min/yolo-for-k210](https://github.com/TonyZ1Min/yolo-for-k210) <img src="https://img.shields.io/github/stars/TonyZ1Min/yolo-for-k210?style=social"/> : keras-yolo-for-k210.
 
     - [vseasky/yolo-for-k210](https://github.com/vseasky/yolo-for-k210) <img src="https://img.shields.io/github/stars/vseasky/yolo-for-k210?style=social"/> : Yolo-for-k210.
+
+
+
+## Blogs
+
+  - 微信公众号「OpenFPGA」
+    - [在FPGA设计中怎么应用ChatGPT？](https://mp.weixin.qq.com/s/BvCFoAi9tAvSs4QS4BFRdA)
+    - [ChatGPT推荐的开源项目，到底靠不靠谱？](https://mp.weixin.qq.com/s/_ERFebXaLUbF3EQs_ZyPIQ)
+    - [【国产FPGA】国产FPGA搭建图像处理平台](https://mp.weixin.qq.com/s/Azg69UrhiwKrRtgzaJlCZg)
+    - [世界上最伟大的开源作品-基于FPGA的开源摄影机--Axiom Camera](https://mp.weixin.qq.com/s/MVLeBwgpCvKlrqwaNzv4dA)
+
