@@ -122,6 +122,8 @@
 
       - ##### RISC-V
 
+        - [XiangShan (香山)](https://github.com/OpenXiangShan/XiangShan) <img src="https://img.shields.io/github/stars/OpenXiangShan/XiangShan?style=social"/> : XiangShan (香山) is an open-source high-performance RISC-V processor project. "Towards Developing High Performance RISC-V Processors Using Agile Methodology". (**[MICRO 2022](https://ieeexplore.ieee.org/abstract/document/9923860/)**)
+
         - [Rocket Chip](https://github.com/chipsalliance/rocket-chip) <img src="https://img.shields.io/github/stars/chipsalliance/rocket-chip?style=social"/> : Rocket Chip Generator 🚀. This repository contains the Rocket chip generator necessary to instantiate the RISC-V Rocket Core. 
 
         - [MoonbaseOtago/vroom](https://github.com/MoonbaseOtago/vroom) <img src="https://img.shields.io/github/stars/MoonbaseOtago/vroom?style=social"/> : VRoom! RISC-V CPU. A new high-end RISC-V implementation.
@@ -231,13 +233,55 @@
 
     - [vseasky/yolo-for-k210](https://github.com/vseasky/yolo-for-k210) <img src="https://img.shields.io/github/stars/vseasky/yolo-for-k210?style=social"/> : Yolo-for-k210.
 
+    - [shilicon/kr260_robotic_arm](https://github.com/shilicon/kr260_robotic_arm) <img src="https://img.shields.io/github/stars/shilicon/kr260_robotic_arm?style=social"/> : A robotic arm controller design based on AMD/Xilinx KR260 FPGA dev-kit. 这是一个在AMD/Xilinx Kria KR260 FPGA板卡上实现机械臂抓取物体的工程。
+
 
 
 ## Blogs
 
+  - 微信公众号「老石谈芯」
+    - [2019-01-28，什么是FPGA工程师的核心竞争力](https://mp.weixin.qq.com/s/tMl3GNRxqjY5IX36YhOY4w)
+    - [2020-02-28，FPGA最有影响力的25个研究成果 – 系统架构篇](https://mp.weixin.qq.com/s/2ctLcsJf9GifaRchpvoAug)
+    - [2020-03-02，FPGA20年最有影响力的25个研究成果 – 微架构篇](https://mp.weixin.qq.com/s/a0rGav-SFF-d7r2pe1tsJQ)
+    - [2020-11-09，入行10年后，我总结了这份FPGA学习路线](https://mp.weixin.qq.com/s/x_hTZQIxFsKmsaEn4DMUcQ)
+    - [2021-01-18，Stratix10 NX：超越GPU的人工智能时代“最强”FPGA？](https://mp.weixin.qq.com/s/Ftv0IDQ3rTpW85wGLwsSGw)
+    - [2021-07-20，芯片开发语言：Verilog在左，Chisel在右](https://mp.weixin.qq.com/s/EKzYUofPaN-3CDG8LEl4HA)
+    - [2021-10-30，我在隔离酒店，“做了”一个AI视觉加速器](https://mp.weixin.qq.com/s/chBWjUdBRRfZOSs74lWmNQ)
+    - [2021-12-16，未来的十年，是中国芯片行业的黄金十年](https://mp.weixin.qq.com/s/aCebZn6P0SDelZ1YkNDcDQ)
+    - [2022-02-14，你能教教我们，二本如何去中科院实习吗？](https://mp.weixin.qq.com/s/hteiQebZizHKJaVLvEx5_A)
+    - [2022-02-17，490亿刀！AMD收购赛灵思，动了谁的蛋糕？](https://mp.weixin.qq.com/s/A3OTAvVA_BiUghJ_X6lljQ)
+    - [2022-04-07，ACAP：不是FPGA，胜似FPGA](https://mp.weixin.qq.com/s/FvS9QkT7SV4pK4gc86vovg)
+    - [2022-05-18，裸辞回国+放弃百w年薪，我是不是疯了？](https://mp.weixin.qq.com/s/j100HqS__26h_zhUml5pQg)
+    - [2022-08-01，如何设计一个RISC-V处理器？](https://mp.weixin.qq.com/s/ordM_ITgTBW61RHGld1HAw)
+    - [2022-12-14，用软件开发FPGA：机械臂设计保姆级教程](https://mp.weixin.qq.com/s/s3rES6-aDKscRvVR2LZlAw)
+
+
   - 微信公众号「OpenFPGA」
     - [2023-03-13，在FPGA设计中怎么应用ChatGPT？](https://mp.weixin.qq.com/s/BvCFoAi9tAvSs4QS4BFRdA)
+    - [2023-03-17，卧槽，这才是最强Verilog刷题网站！](https://mp.weixin.qq.com/s/vRBxv3-2GOclFeELhdT62w)
     - [2023-03-20，【国产FPGA】国产FPGA搭建图像处理平台](https://mp.weixin.qq.com/s/Azg69UrhiwKrRtgzaJlCZg)
+    - [2023-03-22，【开源硬件】FPGA PCIe加速卡开源硬件及例程（RIFFA\XDMA\HDMI\SDI）介绍](https://mp.weixin.qq.com/s/t7gTzUN2Z6l_fGWyk0gODg)
+    - [2023-03-23，想用FPGA加速神经网络，这两个开源项目你必须要了解](https://mp.weixin.qq.com/s/n9GREgdKNyRrJy9-mSX8wg)
     - [2023-03-27，ChatGPT推荐的开源项目，到底靠不靠谱？](https://mp.weixin.qq.com/s/_ERFebXaLUbF3EQs_ZyPIQ)
+    - [2023-04-03，FPGA有哪些优质的带源码的IP开源网站?](https://mp.weixin.qq.com/s/-JdGJyUVznAHhqKyr_xM2A)
     - [2023-04-06，世界上最伟大的开源作品-基于FPGA的开源摄影机--Axiom Camera](https://mp.weixin.qq.com/s/MVLeBwgpCvKlrqwaNzv4dA)
 
+
+  - 微信公众号「FPGA探索者」
+    - [2023-04-06，往年FPGA、数字IC实习秋招面试汇总贴 + 复习建议，收藏！](https://mp.weixin.qq.com/s/mAs857VDUrUtLA2fytlT9A)
+
+
+  - 微信公众号「深蓝AI」
+    - [2023-04-05，稚晖君的机器人创业团队招聘](https://mp.weixin.qq.com/s/zu0JMOdWYk79YRMdr1Q3gg)
+
+
+  - 微信公众号「AIIC Xidian」
+    - [2022-10-16，研读|基于FPGA脉冲神经网络模型设计与实现](https://mp.weixin.qq.com/s/kkFeerMgtdnj--7AoOHV4A)
+
+
+  - 微信公众号「FPGA设计论坛」
+    - [2023-03-08，未来的高性能FPGA是否会优于GPU？](https://mp.weixin.qq.com/s/-UvhpvHid8GwzC4y5_WTLg)
+
+
+  - 微信公众号「数字IC打工人」
+    - [2023-03-17，【行业干货】IC各细分领域公司简介以及薪资调研（GPU篇）](https://mp.weixin.qq.com/s/ZPuqE9wWu_jCQNFXPwGyzA)
