@@ -22,8 +22,6 @@
     - [Camera Firmware](#camera-firmware)
     - [Spiking Neural Network](#spiking-neural-network)
     - [Object Detection](#object-detection)
-
-
   - [Blogs](#blogs)
 
 
@@ -254,9 +252,16 @@
     - [2022-05-18，裸辞回国+放弃百w年薪，我是不是疯了？](https://mp.weixin.qq.com/s/j100HqS__26h_zhUml5pQg)
     - [2022-08-01，如何设计一个RISC-V处理器？](https://mp.weixin.qq.com/s/ordM_ITgTBW61RHGld1HAw)
     - [2022-12-14，用软件开发FPGA：机械臂设计保姆级教程](https://mp.weixin.qq.com/s/s3rES6-aDKscRvVR2LZlAw)
-
-
   - 微信公众号「OpenFPGA」
+    - [2022-05-31，优秀的 Verilog/FPGA开源项目介绍（二十四）- 脉冲神经网络 (SNN)](https://mp.weixin.qq.com/s/-sCsRLK7uh5jZZ4FSc1t6g)
+    - [2023-01-06，优秀的 Verilog/FPGA开源项目介绍（三十六）-RISC-V（新增一）](https://mp.weixin.qq.com/s/cbgGrGdKS1tUBQc1j3Fhpw)
+    - [2023-01-30，从FPGA说起的深度学习（一）](https://mp.weixin.qq.com/s/oDmwGnVEaZvLSoSincjLFA)
+    - [2023-02-08，从FPGA说起的深度学习（二）](https://mp.weixin.qq.com/s/4faZFvilJjPJyjHnARF0og)
+    - [2023-02-15，从FPGA说起的深度学习（三）](https://mp.weixin.qq.com/s/ecSer6VrTAsh_6_J5jEidQ)
+    - [2023-03-02，从FPGA说起的深度学习（四）](https://mp.weixin.qq.com/s/cjObRscNt1rs-RMAqHbnTg)
+    - [2023-03-10，从FPGA说起的深度学习（五）](https://mp.weixin.qq.com/s/WoSe5hn_G-2jQU31lvd9SQ)
+    - [2023-04-12，从FPGA说起的深度学习（六）-任务并行性](https://mp.weixin.qq.com/s/P6M4nd-svjC95J9qIy_4yQ)
+    - [2023-04-17，从FPGA说起的深度学习（七）-循环并行化](https://mp.weixin.qq.com/s/xe-SHMNI8a5iH7jrkDB1pA)
     - [2023-03-13，在FPGA设计中怎么应用ChatGPT？](https://mp.weixin.qq.com/s/BvCFoAi9tAvSs4QS4BFRdA)
     - [2023-03-17，卧槽，这才是最强Verilog刷题网站！](https://mp.weixin.qq.com/s/vRBxv3-2GOclFeELhdT62w)
     - [2023-03-20，【国产FPGA】国产FPGA搭建图像处理平台](https://mp.weixin.qq.com/s/Azg69UrhiwKrRtgzaJlCZg)
@@ -265,23 +270,29 @@
     - [2023-03-27，ChatGPT推荐的开源项目，到底靠不靠谱？](https://mp.weixin.qq.com/s/_ERFebXaLUbF3EQs_ZyPIQ)
     - [2023-04-03，FPGA有哪些优质的带源码的IP开源网站?](https://mp.weixin.qq.com/s/-JdGJyUVznAHhqKyr_xM2A)
     - [2023-04-06，世界上最伟大的开源作品-基于FPGA的开源摄影机--Axiom Camera](https://mp.weixin.qq.com/s/MVLeBwgpCvKlrqwaNzv4dA)
-
-
   - 微信公众号「FPGA探索者」
     - [2023-04-06，往年FPGA、数字IC实习秋招面试汇总贴 + 复习建议，收藏！](https://mp.weixin.qq.com/s/mAs857VDUrUtLA2fytlT9A)
-
-
   - 微信公众号「深蓝AI」
     - [2023-04-05，稚晖君的机器人创业团队招聘](https://mp.weixin.qq.com/s/zu0JMOdWYk79YRMdr1Q3gg)
-
-
   - 微信公众号「AIIC Xidian」
     - [2022-10-16，研读|基于FPGA脉冲神经网络模型设计与实现](https://mp.weixin.qq.com/s/kkFeerMgtdnj--7AoOHV4A)
-
-
   - 微信公众号「FPGA设计论坛」
     - [2023-03-08，未来的高性能FPGA是否会优于GPU？](https://mp.weixin.qq.com/s/-UvhpvHid8GwzC4y5_WTLg)
-
-
   - 微信公众号「数字IC打工人」
     - [2023-03-17，【行业干货】IC各细分领域公司简介以及薪资调研（GPU篇）](https://mp.weixin.qq.com/s/ZPuqE9wWu_jCQNFXPwGyzA)
+  - 微信公众号「中国计算机学会」
+    - [2023-04-10，FPGA在人工智能时代的独特优势｜SPP第38期](https://mp.weixin.qq.com/s/NleJburD5jvst8ijJUXcNQ)
+  - 微信公众号「硬件起源」
+    - [2023-03-17，国产化浪潮中的国产FPGA](https://mp.weixin.qq.com/s/P2JjulFeOaHDwBvOJpROnQ)
+  - 微信公众号「疯狂的FPGA」
+    - [2023-03-09，《FPGA图像加速》第二章-bilibili回播入口](https://mp.weixin.qq.com/s/GEKZkMgKLYlhMSR6TCyUhQ)
+    - [2023-04-11，国内唯一的纯FPGA论坛，发布](https://mp.weixin.qq.com/s/a6vliiR-XOftaBA-r6fGYw)
+  - 微信公众号「芯东西」
+    - [2023-04-07，雷军投资的第一家芯片公司，上市了！](https://mp.weixin.qq.com/s/eLwBoiFlzTnn7rsdtQaIxQ)
+    - [2023-04-10，把GPT时代引擎拉满，国产AI大算力芯片换道狂飙](https://mp.weixin.qq.com/s/IBsY3Mwdnj4U-9hI4weqzA)
+  - 微信公众号「IT服务圈儿」
+    - [2023-04-09，摩尔定律之父94岁仙逝！悼念一代半导体先驱、英特尔创始人戈登·摩尔](https://mp.weixin.qq.com/s/Xn_HE9O3nBLtNIk3zZfqrQ)
+  - 微信公众号「电子工程专辑」
+    - [2023-04-07，详细解读AspenCore 2023 中国IC设计 Fabless100 排行榜](https://mp.weixin.qq.com/s/xHC8otX8lvnjei5bxkqkxA)
+  - 微信公众号「建约车评」
+    - [2023-03-29，从智能电车到AI计算机](https://mp.weixin.qq.com/s/qwyJMhYE4Nv7J0QoVxW1gA)
