@@ -21,6 +21,7 @@
       - [PCIe Core](#pcie-core)
     - [Camera Firmware](#camera-firmware)
     - [Spiking Neural Network](#spiking-neural-network)
+    - [Spiking Neural Network](#spiking-neural-network)
     - [Object Detection](#object-detection)
   - [Blogs](#blogs)
 
@@ -161,6 +162,10 @@
     - [ChFrenkel/ReckOn](https://github.com/ChFrenkel/ReckOn) <img src="https://img.shields.io/github/stars/ChFrenkel/ReckOn?style=social"/> : ReckOn: A Spiking RNN Processor Enabling On-Chip Learning over Second-Long Timescales.
 
 
+  - ### Convolutional Neural Network
+
+    - [ZFTurbo/MobileNet-in-FPGA](https://github.com/ZFTurbo/MobileNet-in-FPGA) <img src="https://img.shields.io/github/stars/ZFTurbo/MobileNet-in-FPGA?style=social"/> : Generator of verilog description for FPGA MobileNet implementation.
+
 
 
 
@@ -264,14 +269,51 @@
     - [2023-04-17，从FPGA说起的深度学习（七）-循环并行化](https://mp.weixin.qq.com/s/xe-SHMNI8a5iH7jrkDB1pA)
     - [2023-03-13，在FPGA设计中怎么应用ChatGPT？](https://mp.weixin.qq.com/s/BvCFoAi9tAvSs4QS4BFRdA)
     - [2023-03-17，卧槽，这才是最强Verilog刷题网站！](https://mp.weixin.qq.com/s/vRBxv3-2GOclFeELhdT62w)
+    - [2023-03-17，还在为没有项目做发愁？这几个神级开源网站，都是FPGA/IC项目](https://mp.weixin.qq.com/s/mbx8l6nRilcVOMjMQU7iUA)    
     - [2023-03-20，【国产FPGA】国产FPGA搭建图像处理平台](https://mp.weixin.qq.com/s/Azg69UrhiwKrRtgzaJlCZg)
     - [2023-03-22，【开源硬件】FPGA PCIe加速卡开源硬件及例程（RIFFA\XDMA\HDMI\SDI）介绍](https://mp.weixin.qq.com/s/t7gTzUN2Z6l_fGWyk0gODg)
     - [2023-03-23，想用FPGA加速神经网络，这两个开源项目你必须要了解](https://mp.weixin.qq.com/s/n9GREgdKNyRrJy9-mSX8wg)
     - [2023-03-27，ChatGPT推荐的开源项目，到底靠不靠谱？](https://mp.weixin.qq.com/s/_ERFebXaLUbF3EQs_ZyPIQ)
+    - [2023-03-31，牛客网发布了全新数字逻辑题库！会不会导致今年FPGA/IC行业更卷？！！](https://mp.weixin.qq.com/s/3aMAveRN6rakI30NuNydxQ)
     - [2023-04-03，FPGA有哪些优质的带源码的IP开源网站?](https://mp.weixin.qq.com/s/-JdGJyUVznAHhqKyr_xM2A)
     - [2023-04-06，世界上最伟大的开源作品-基于FPGA的开源摄影机--Axiom Camera](https://mp.weixin.qq.com/s/MVLeBwgpCvKlrqwaNzv4dA)
+    - [2023-04-19，基于 FPGA 的低成本、低延时成像系统](https://mp.weixin.qq.com/s/kSC5Y_0vpmMhy718PhUVsw)
+    - [2023-04-21，MIPI摄像头工程=7系列FPGA + OV5640(MIPI) + 15 分钟 + VITIS](https://mp.weixin.qq.com/s/h3hbl7pynhml2t4sOg9tHw)
+  - 微信公众号「FPGA之旅」
+    - [2022-08-29，FPGA点亮LED灯](https://mp.weixin.qq.com/s/OtBMm6iy8jrpHAl-FUI7XA)
+    - [2022-08-29，FPGA实现按键模块](https://mp.weixin.qq.com/s/wgOKGlKHXeyX2FNhTRzfIA)
+    - [2022-08-29，FPGA实现UART串口通信](https://mp.weixin.qq.com/s/N_BaLoVY97LdoWiL8XlSNQ)
+    - [2022-08-16，FPGA实现串口多比特发送接收模块](https://mp.weixin.qq.com/s/-SgBkJTbW-nRkG_eqjatWQ)
+    - [2022-08-20，FPGA实现IIC协议](https://mp.weixin.qq.com/s/3qwZRqjHEZzj4V8uMo0T4g)
+    - [2022-08-29，FPGA实现数码管显示](https://mp.weixin.qq.com/s/mcT0rhKOOhjV5KOwDxi8zA)
+    - [2022-02-26，FPGA数字时钟](https://mp.weixin.qq.com/s/ZqE81Ciw8NHc0hu2FyvKzQ)
+    - [2022-08-30，FPGA实现DS18B20温度采集](https://mp.weixin.qq.com/s/medhKIQCo-KB904mXzwmpw)
+    - [2022-08-31，FPGA驱动OLED屏幕](https://mp.weixin.qq.com/s/HPubkS3-EVhbcsShtyBCIQ)
+    - [2022-09-04，串口上位机模拟OLED屏](https://mp.weixin.qq.com/s/_6IMXK_hM0udLnciTAc75A)
+    - [2022-09-06，FPGA驱动OLED显示字符](https://mp.weixin.qq.com/s/5EpWq_-2dbDlKml-shzmKQ)
+    - [2022-09-07，FPGA采集DHT11温湿度](https://mp.weixin.qq.com/s/D2uBEG6cA4Q9kqO6mWcsgA)
+    - [2022-09-08，FPGA在OLED上显示DHT11数据](https://mp.weixin.qq.com/s/MKEMUNB7Bvc40aBPHt6dJQ)
+    - [2022-09-14，FPGA解析红外遥控信号](https://mp.weixin.qq.com/s/8ozdSrNjoYQrfiQjhRhj_w)
+    - [2022-09-24，FPGA实现超声波测距](https://mp.weixin.qq.com/s/5YYTZtk8WSU25LwgbpiaTw)
+    - [2022-10-02，FPGA舵机驱动](https://mp.weixin.qq.com/s/j0fv2Lhz4myCcJ70tumDtA)
+    - [2022-10-06，FPGA驱动VGA显示屏](https://mp.weixin.qq.com/s/HFHb4kDVQe3cm93JKnVb5A)
+    - [2022-10-09，OV5640摄像头简介与SCCB时序](https://mp.weixin.qq.com/s/Yr4-88xnwLqQKpCXEa7ysQ)
+    - [2022-10-14，FPGA驱动OV5640上电及初始化](https://mp.weixin.qq.com/s/m0JAqdng35-FC8E5pItlQA)
+    - [2022-10-16，FPGA实现SDRAM控制器](https://mp.weixin.qq.com/s/gPttDvm6XVBrimx1AAKvhQ)
+    - [2022-10-22，串口VGA搭配SDRAM_FIFO显示图片](https://mp.weixin.qq.com/s/C5tK3S8KJL2hHQam-6E-sA)
+    - [2022-11-06，​FPGA实现Sobel算法进行边沿检测](https://mp.weixin.qq.com/s/aF0-jXrvwIva03-wX9Sh3Q)
+    - [2022-12-03，​FPGA的工作原理，一篇全掌握！](https://mp.weixin.qq.com/s/pE-M9acv_oiIyMnr0gAomw)
+  - 微信公众号「FPGA技术江湖」
+    - [2023-02-12，​往期精选：基于FPGA的电子计算器系统设计（附代码）](https://mp.weixin.qq.com/s/SW1YBrB6ujVuAO3YjS1ywQ)
+    - [2023-02-14，​国产芯片生态图谱（2022最新版）](https://mp.weixin.qq.com/s/CJW3aARsnyHSc6Iw8eRLJg)
+    - [2023-04-21，​万能芯片 — FPGA](https://mp.weixin.qq.com/s/RVDMBGV605msuDbyGscf4Q)
+  - 微信公众号「疯狂的FPGA」
+    - [2023-03-09，《FPGA图像加速》第二章-bilibili回播入口](https://mp.weixin.qq.com/s/GEKZkMgKLYlhMSR6TCyUhQ)
+    - [2023-04-11，国内唯一的纯FPGA论坛，发布](https://mp.weixin.qq.com/s/a6vliiR-XOftaBA-r6fGYw)
   - 微信公众号「FPGA探索者」
     - [2023-04-06，往年FPGA、数字IC实习秋招面试汇总贴 + 复习建议，收藏！](https://mp.weixin.qq.com/s/mAs857VDUrUtLA2fytlT9A)
+  - 微信公众号「FPGA之家」
+    - [2023-01-20，FPGA相关知识系统介绍](https://mp.weixin.qq.com/s/WF6uofAdSzMRPeEZ029KLQ)   
   - 微信公众号「深蓝AI」
     - [2023-04-05，稚晖君的机器人创业团队招聘](https://mp.weixin.qq.com/s/zu0JMOdWYk79YRMdr1Q3gg)
   - 微信公众号「AIIC Xidian」
@@ -284,9 +326,6 @@
     - [2023-04-10，FPGA在人工智能时代的独特优势｜SPP第38期](https://mp.weixin.qq.com/s/NleJburD5jvst8ijJUXcNQ)
   - 微信公众号「硬件起源」
     - [2023-03-17，国产化浪潮中的国产FPGA](https://mp.weixin.qq.com/s/P2JjulFeOaHDwBvOJpROnQ)
-  - 微信公众号「疯狂的FPGA」
-    - [2023-03-09，《FPGA图像加速》第二章-bilibili回播入口](https://mp.weixin.qq.com/s/GEKZkMgKLYlhMSR6TCyUhQ)
-    - [2023-04-11，国内唯一的纯FPGA论坛，发布](https://mp.weixin.qq.com/s/a6vliiR-XOftaBA-r6fGYw)
   - 微信公众号「芯东西」
     - [2023-04-07，雷军投资的第一家芯片公司，上市了！](https://mp.weixin.qq.com/s/eLwBoiFlzTnn7rsdtQaIxQ)
     - [2023-04-10，把GPT时代引擎拉满，国产AI大算力芯片换道狂飙](https://mp.weixin.qq.com/s/IBsY3Mwdnj4U-9hI4weqzA)
@@ -296,3 +335,24 @@
     - [2023-04-07，详细解读AspenCore 2023 中国IC设计 Fabless100 排行榜](https://mp.weixin.qq.com/s/xHC8otX8lvnjei5bxkqkxA)
   - 微信公众号「建约车评」
     - [2023-03-29，从智能电车到AI计算机](https://mp.weixin.qq.com/s/qwyJMhYE4Nv7J0QoVxW1gA)
+  - 微信公众号「ittbank」
+    - [2023-04-10，万能芯片 —— FPGA](https://mp.weixin.qq.com/s/1cBSgtkZ0lK9Gx8xs49yZQ)
+  - 微信公众号「半导体芯闻」
+    - [2023-04-18，RISC–V市场迎来芯片巨头](https://mp.weixin.qq.com/s/2Hm9b3JHXaB234E1Yc9mFw)
+  - 微信公众号「AI智胜未来」
+    - [2023-04-17，我国人工智能硬件产业现状分析](https://mp.weixin.qq.com/s/IdYCjJgxCrP_cTVff6zuzw)
+  - 微信公众号「机器之心」
+    - [2022-07-04，超低功耗AI芯片：神经脉冲只需同类神经网络能量的0.02%](https://mp.weixin.qq.com/s/aVV4JyxblCYD6PWPsnnGuQ)
+  - 微信公众号「半导体行业观察」
+    - [2023-02-09，“没有什么能阻止RISC-V”](https://mp.weixin.qq.com/s/zBKU4z5Vh4zKUigUNq-bHg)
+    - [2023-03-24，对标EDA三巨头，思尔芯推出国产硬件仿真系统](https://mp.weixin.qq.com/s/kU2bKAnloDhpYB1eMy_lGw)
+  - 微信公众号「嵌入式Linux」
+    - [2023-03-03，很快，RISC-V芯片将无处不在](https://mp.weixin.qq.com/s/H-F5cZ7e-0XMDwSXGy_uAA)
+  - 微信公众号「硅农亚历山大」
+    - [2023-02-28，RV双周报：RISC-V进入高性能计算元年，微软.NET Runtime初步支持RV架构(第54期-20230228)](https://mp.weixin.qq.com/s/kkVWz76Exy-ZNz8tOegeaQ)
+  - 微信公众号「传感器专家网」
+    - [2023-02-02，传感器上《新闻联播》了！被列为10大科技之首，重要性堪比芯片](https://mp.weixin.qq.com/s/lBCx60toLJl02VFYR2jJzA)
+  - 微信公众号「泰晓科技」
+    - [2023-01-20，访谈 | RISC-V 开发板 AI 应用开发实践](https://mp.weixin.qq.com/s/rDaYQTrD7mVHVVaEV3hLXw)
+  - 微信公众号「佐思汽车研究」
+    - [2023-03-30，智能汽车全景图—核心芯片微门户](https://mp.weixin.qq.com/s/pYDFF77MaLxu4nCYwDha7w)
