@@ -21,7 +21,7 @@
       - [PCIe Core](#pcie-core)
     - [Camera Firmware](#camera-firmware)
     - [Spiking Neural Network](#spiking-neural-network)
-    - [Spiking Neural Network](#spiking-neural-network)
+    - [Convolutional Neural Network](#convolutional-neural-network)
     - [Object Detection](#object-detection)
   - [Blogs](#blogs)
 
@@ -135,6 +135,13 @@
 
   - ### IP Core
 
+
+    - #### IP Generator
+
+      - [lnis-uofu/OpenFPGA](https://github.com/lnis-uofu/OpenFPGA) <img src="https://img.shields.io/github/stars/lnis-uofu/OpenFPGA?style=social"/> : The award-winning OpenFPGA framework is the first open-source FPGA IP generator with silicon proofs supporting highly-customizable FPGA architectures. OpenFPGA provides complete EDA support for customized FPGAs, including Verilog-to-bitstream generation and self-testing verification. OpenFPGA opens the door to democratizing FPGA technology and EDA techniques with agile prototyping approaches and constantly evolving EDA tools for chip designers and researchers. [openfpga.readthedocs.io/en/master/](openfpga.readthedocs.io/en/master/). "OpenFPGA: An Open-Source Framework for Agile Prototyping Customizable FPGAs". (**[IEEE Micro, 2020](https://ieeexplore.ieee.org/abstract/document/9098028/)**)
+
+
+
     - #### PCIe Core
 
       - [Reconfigurable-Computing/Xilinx-FPGA-PCIe-XDMA-Tutorial](https://github.com/Reconfigurable-Computing/Xilinx-FPGA-PCIe-XDMA-Tutorial) <img src="https://img.shields.io/github/stars/Reconfigurable-Computing/Xilinx-FPGA-PCIe-XDMA-Tutorial?style=social"/> : Xilinx FPGA PCIe 保姆级教程 ——基于 PCIe XDMA IP核。
@@ -149,7 +156,8 @@
 
   - ### Camera Firmware
 
-    - [ChFrenkel/tinyODIN](https://github.com/apertus-open-source-cinema/axiom-firmware) <img src="https://img.shields.io/github/stars/apertus-open-source-cinema/axiom-firmware?style=social"/> : AXIOM Beta Software. Firmware required to boot & operate the [apertus° AXIOM Beta Camera](https://www.apertus.org/axiom-beta). "微信公众号「OpenFPGA」《[世界上最伟大的开源作品-基于FPGA的开源摄影机--Axiom Camera](https://mp.weixin.qq.com/s/MVLeBwgpCvKlrqwaNzv4dA)》"。
+    - [apertus-open-source-cinema/axiom-firmware](https://github.com/apertus-open-source-cinema/axiom-firmware) <img src="https://img.shields.io/github/stars/apertus-open-source-cinema/axiom-firmware?style=social"/> : AXIOM Beta Software. Firmware required to boot & operate the [apertus° AXIOM Beta Camera](https://www.apertus.org/axiom-beta). "微信公众号「OpenFPGA」《[世界上最伟大的开源作品-基于FPGA的开源摄影机--Axiom Camera](https://mp.weixin.qq.com/s/MVLeBwgpCvKlrqwaNzv4dA)》"。
+
 
 
 
@@ -162,21 +170,23 @@
     - [ChFrenkel/ReckOn](https://github.com/ChFrenkel/ReckOn) <img src="https://img.shields.io/github/stars/ChFrenkel/ReckOn?style=social"/> : ReckOn: A Spiking RNN Processor Enabling On-Chip Learning over Second-Long Timescales.
 
 
+
   - ### Convolutional Neural Network
-
-    - [ZFTurbo/MobileNet-in-FPGA](https://github.com/ZFTurbo/MobileNet-in-FPGA) <img src="https://img.shields.io/github/stars/ZFTurbo/MobileNet-in-FPGA?style=social"/> : Generator of verilog description for FPGA MobileNet implementation.
-
-
-
-
-
-  - ### Object Detection
 
     - [Xilinx/Vitis-AI](https://github.com/Xilinx/Vitis-AI/tree/master/demo) <img src="https://img.shields.io/github/stars/Xilinx/Vitis-AI?style=social"/> : Vitis AI offers a unified set of high-level C++/Python programming APIs to run AI applications across edge-to-cloud platforms, including DPU for Alveo, and DPU for Zynq Ultrascale+ MPSoC and Zynq-7000. It brings the benefits to easily port AI applications from cloud to edge and vice versa. 10 samples in [VART Samples](https://github.com/Xilinx/Vitis-AI/tree/master/demo/VART) are available to help you get familiar with the unfied programming APIs. [Vitis-AI-Library](https://github.com/Xilinx/Vitis-AI/tree/master/demo/Vitis-AI-Library) provides an easy-to-use and unified interface by encapsulating many efficient and high-quality neural networks.
 
     - [tensil-ai/tensil](https://github.com/tensil-ai/tensil) <img src="https://img.shields.io/github/stars/tensil-ai/tensil?style=social"/> : Open source machine learning accelerators. [www.tensil.ai](https://www.tensil.ai/)
 
     - [19801201/SpinalHDL_CNN_Accelerator](https://github.com/19801201/SpinalHDL_CNN_Accelerator) <img src="https://img.shields.io/github/stars/19801201/SpinalHDL_CNN_Accelerator?style=social"/> : CNN accelerator implemented with Spinal HDL.
+
+    - [ZFTurbo/MobileNet-in-FPGA](https://github.com/ZFTurbo/MobileNet-in-FPGA) <img src="https://img.shields.io/github/stars/ZFTurbo/MobileNet-in-FPGA?style=social"/> : Generator of verilog description for FPGA MobileNet implementation.
+
+    - [MasLiang/CNN-On-FPGA](https://github.com/MasLiang/CNN-On-FPGA) <img src="https://img.shields.io/github/stars/MasLiang/CNN-On-FPGA?style=social"/> : This is the code of the CNN on FPGA.But this can only be used for reference at present for some files are write coarsly using ISE.
+
+
+
+
+  - ### Object Detection
 
     - [dhm2013724/yolov2_xilinx_fpga](https://github.com/dhm2013724/yolov2_xilinx_fpga) <img src="https://img.shields.io/github/stars/dhm2013724/yolov2_xilinx_fpga?style=social"/> : YOLOv2 Accelerator in Xilinx's Zynq-7000 Soc(PYNQ-z2, Zedboard and ZCU102). (**[硕士论文 2019](https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CMFD&dbname=CMFDTEMP&filename=1019228234.nh&uid=WEEvREcwSlJHSldRa1FhdXNXaEhoOGhUTzA5T0tESzdFZ2pyR1NJR1ZBaz0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4IQMovwHtwkF4VYPoHbKxJw!!&v=MjE5NTN5dmdXN3JBVkYyNkY3RzZGdFBQcTVFYlBJUjhlWDFMdXhZUzdEaDFUM3FUcldNMUZyQ1VSTE9lWnVkdUY=), [电子技术应用 2019](https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2019&filename=DZJY201908009&uid=WEEvREcwSlJHSldRa1FhdXNXaEhoOGhUTzA5T0tESzdFZ2pyR1NJR1ZBaz0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4IQMovwHtwkF4VYPoHbKxJw!!&v=MDU0NDJDVVJMT2VadWR1Rnl2Z1c3ck1JVGZCZDdHNEg5ak1wNDlGYllSOGVYMUx1eFlTN0RoMVQzcVRyV00xRnI=), [计算机科学与探索 2019](https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDTEMP&filename=KXTS201910005&uid=WEEvREcwSlJHSldRa1FhdXNXaEhoOGhUTzA5T0tESzdFZ2pyR1NJR1ZBaz0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4IQMovwHtwkF4VYPoHbKxJw!!&v=MjkwNzdXTTFGckNVUkxPZVp1ZHVGeXZnVzdyT0xqWGZmYkc0SDlqTnI0OUZZWVI4ZVgxTHV4WVM3RGgxVDNxVHI=)**)
 
@@ -220,8 +230,6 @@
 
     - [yarakigit/design_contest_yolo_change_ps_to_pl](https://github.com/yarakigit/design_contest_yolo_change_ps_to_pl) <img src="https://img.shields.io/github/stars/yarakigit/design_contest_yolo_change_ps_to_pl?style=social"/> : Converts pytorch yolo format weights to C header files for bare-metal (FPGA implementation).
 
-    - [MasLiang/CNN-On-FPGA](https://github.com/MasLiang/CNN-On-FPGA) <img src="https://img.shields.io/github/stars/MasLiang/CNN-On-FPGA?style=social"/> : This is the code of the CNN on FPGA.But this can only be used for reference at present for some files are write coarsly using ISE.
-
     - [adamgallas/fpga_accelerator_yolov3tiny](https://github.com/adamgallas/fpga_accelerator_yolov3tiny) <img src="https://img.shields.io/github/stars/adamgallas/fpga_accelerator_yolov3tiny?style=social"/> : fpga_accelerator_yolov3tiny.
 
     - [ylk678910/tiny-yolov3-fpga](https://github.com/ylk678910/tiny-yolov3-fpga) <img src="https://img.shields.io/github/stars/ylk678910/tiny-yolov3-fpga?style=social"/> : Use an all-programmable SoC board to implement locating and tracking tasks. The hardware algorithm, a row-stationary-like strategy, can parallel calculate and reduce the storage buffer area on FPGA.
@@ -242,7 +250,29 @@
 
 ## Blogs
 
-  - 微信公众号「老石谈芯」
+  - [bilibili「老石谈芯」| 微信公众号「老石谈芯」](https://space.bilibili.com/612932327)
+    - [2020-06-27，FPGA芯片在人工智能时代的独特优势](https://www.bilibili.com/video/BV1EK4y1s7wP/?spm_id_from=333.788)
+    - [2020-07-05，FPGA芯片发展的三个阶段](https://www.bilibili.com/video/BV1Q5411W7sW/?spm_id_from=333.788)
+    - [2020-08-10，什么是数据中心？](https://www.bilibili.com/video/BV1h54y1i7u3/?spm_id_from=333.999.0.0)
+    - [2020-09-20，【芯片科普】国产芯片的明显短板：FPGA](https://www.bilibili.com/video/BV1ih411X7QD/?spm_id_from=333.788)
+    - [2020-11-04，入行十年，我总结了这份FPGA学习路线：搞定这四点，你也能轻松进阶](https://www.bilibili.com/video/BV1aK4y1E7nc/?spm_id_from=333.788)
+    - [2020-11-30，芯片工程师的一天 | 我如何每天高效工作12小时](https://www.bilibili.com/video/BV1Fv411b7gs/?spm_id_from=333.999.0.0)
+    - [2020-12-27，想去一线大厂做FPGA芯片开发？这些是你该学的知识](https://www.bilibili.com/video/BV11y4y1i7Lv/?spm_id_from=333.788)
+    - [2021-01-11，【芯片前沿】英特尔的这个AI芯片，性能如何超过英伟达20倍？](https://www.bilibili.com/video/BV11U4y1x7hH/?spm_id_from=333.788)
+    - [2021-01-17，为什么我不需要一个“完美”的桌面？ | 附完整桌面设备清单](https://www.bilibili.com/video/BV1Jh411y7WS/?spm_id_from=333.999.0.0)
+    - [2021-03-07，这就是最棒的效率软件！如果不是，我倒想试试你的 | Notion使用技巧分享](https://www.bilibili.com/video/BV1aV411v7te/?spm_id_from=333.999.0.0)
+    - [2021-04-04，微软如何成为FPGA芯片的全球第一大客户 | 深度解析微软Catapult FPGA项目](https://www.bilibili.com/video/BV1ny4y1x7ix/?spm_id_from=333.788)
+    - [2021-04-26，【Vlog】芯片工程师休息的一天 | 高效放松身心的五个方法](https://www.bilibili.com/video/BV1GZ4y1F7z7/?spm_id_from=333.999.0.0)
+    - [2021-06-15，我用了两年，写了一本没有代码的芯片书](https://www.bilibili.com/video/BV1Zv411p74J/?spm_id_from=333.788)
+    - [2021-07-04，揭秘“香山”：高性能开源RISC-V处理器 | 对话中科院计算所包云岗研究员](https://www.bilibili.com/video/BV1Mf4y1b7hm/?spm_id_from=333.999.0.0)
+    - [2021-07-28，【芯片硬核】如何设计一个高性能CPU？](https://www.bilibili.com/video/BV1t341167VV/?spm_id_from=333.999.0.0)
+    - [2021-12-03，【芯片硬核】学习模数转换芯片ADC？这些是你该掌握的知识](https://www.bilibili.com/video/BV11r4y1Q7EJ/?spm_id_from=333.999.0.0)
+    - [2022-02-12，如何用Notion保持全年自律？你该试试这个原则](https://www.bilibili.com/video/BV1Gb4y177no/?spm_id_from=333.999.0.0)
+    - [2022-03-20，风口来了？一个视频讲透电子信息类所有专业/行业！](https://www.bilibili.com/video/BV1g44y1N7iQ/?spm_id_from=333.999.0.0)
+    - [2022-03-26，AMD天价收购赛灵思，竟是为了这个芯片？](https://www.bilibili.com/video/BV17L411A7Cw/?spm_id_from=333.788)
+    - [2022-11-25，第一次看到光刻机，竟然这样？！](https://www.bilibili.com/video/BV1Av4y1272D/?spm_id_from=333.999.0.0)
+    - [2022-12-11，用软件开发FPGA：机械臂设计保姆级教程+源码](https://www.bilibili.com/video/BV1se411P7Xv/?spm_id_from=333.788)
+    - [2023-04-21，聊聊我发的论文：如何将芯片验证速度提升4万倍？用FPGA！](https://www.bilibili.com/video/BV1Do4y1b7mC/?spm_id_from=333.999.0.0)
     - [2019-01-28，什么是FPGA工程师的核心竞争力](https://mp.weixin.qq.com/s/tMl3GNRxqjY5IX36YhOY4w)
     - [2020-02-28，FPGA最有影响力的25个研究成果 – 系统架构篇](https://mp.weixin.qq.com/s/2ctLcsJf9GifaRchpvoAug)
     - [2020-03-02，FPGA20年最有影响力的25个研究成果 – 微架构篇](https://mp.weixin.qq.com/s/a0rGav-SFF-d7r2pe1tsJQ)
