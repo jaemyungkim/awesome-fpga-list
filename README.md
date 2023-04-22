@@ -18,7 +18,9 @@
         - [RISC-V](#risc-v)
       - [GPU](#gpu)
     - [IP Core](#ip-core)
+      - [IP Generator](#ip-generator)
       - [PCIe Core](#pcie-core)
+      - [DDR Core](#ddr-core)
     - [Camera Firmware](#camera-firmware)
     - [Spiking Neural Network](#spiking-neural-network)
     - [Convolutional Neural Network](#convolutional-neural-network)
@@ -127,9 +129,32 @@
 
         - [MoonbaseOtago/vroom](https://github.com/MoonbaseOtago/vroom) <img src="https://img.shields.io/github/stars/MoonbaseOtago/vroom?style=social"/> : VRoom! RISC-V CPU. A new high-end RISC-V implementation.
 
+        - [SpinalHDL/VexRiscv](https://github.com/SpinalHDL/VexRiscv) <img src="https://img.shields.io/github/stars/SpinalHDL/VexRiscv?style=social"/> : SpinalHDL/VexRiscv.
+
+        - [DarkRISCV](https://github.com/darklife/darkriscv) <img src="https://img.shields.io/github/stars/darklife/darkriscv?style=social"/> : opensouce RISC-V cpu core implemented in Verilog from scratch in one night! 
+
+        - [stnolting/neorv32](https://github.com/stnolting/neorv32) <img src="https://img.shields.io/github/stars/stnolting/neorv32?style=social"/> : The NEORV32 RISC-V Processor. 🖥️ A tiny, customizable and highly extensible MCU-class 32-bit RISC-V soft-core CPU and microcontroller-like SoC written in platform-independent VHDL. 
+
+        - [ZipCPU/zipcpu](https://github.com/ZipCPU/zipcpu) <img src="https://img.shields.io/github/stars/ZipCPU/zipcpu?style=social"/> : The Zip CPU is a small, light-weight, RISC CPU.
+
+        - [olofk/serv](https://github.com/olofk/serv) <img src="https://img.shields.io/github/stars/olofk/serv?style=social"/> : SERV - The SErial RISC-V CPU.
+
+        - [riscv-mcu/e203_hbirdv2](https://github.com/riscv-mcu/e203_hbirdv2) <img src="https://img.shields.io/github/stars/riscv-mcu/e203_hbirdv2?style=social"/> : The Ultra-Low Power RISC-V Core. [doc.nucleisys.com/hbirdv2](https://doc.nucleisys.com/hbirdv2/)
+
+        - [ultraembedded/riscv](https://github.com/ultraembedded/riscv) <img src="https://img.shields.io/github/stars/ultraembedded/riscv?style=social"/> : RISC-V CPU Core (RV32IM).
+
+        - [ultraembedded/biriscv](https://github.com/ultraembedded/biriscv) <img src="https://img.shields.io/github/stars/ultraembedded/biriscv?style=social"/> : 32-bit Superscalar RISC-V CPU.
+
+
+
 
     - #### GPU
       - [Ventus(承影)](https://github.com/THU-DSP-LAB/ventus-gpgpu) <img src="https://img.shields.io/github/stars/THU-DSP-LAB/ventus-gpgpu?style=social"/> : Ventus(承影) GPGPU. GPGPU processor supporting RISCV-V extension, developed with [Chisel](https://github.com/chipsalliance/chisel) HDL.
+
+
+
+
+
 
 
 
@@ -149,6 +174,20 @@
       - [enjoy-digital/litepcie](https://github.com/enjoy-digital/litepcie) <img src="https://img.shields.io/github/stars/enjoy-digital/litepcie?style=social"/> : LitePCIe provides a small footprint and configurable PCIe core.
 
       - [alexforencich/verilog-pcie](https://github.com/alexforencich/verilog-pcie) <img src="https://img.shields.io/github/stars/alexforencich/verilog-pcie?style=social"/> : Verilog PCI Express Components Readme.
+
+
+
+    - #### DDR Core
+
+      - [ultraembedded/core_ddr3_controller](https://github.com/ultraembedded/core_ddr3_controller) <img src="https://img.shields.io/github/stars/ultraembedded/core_ddr3_controller?style=social"/> : A DDR3 memory controller in Verilog for various FPGAs.
+
+      - [WangXuan95/FPGA-DDR-SDRAM](https://github.com/WangXuan95/FPGA-DDR-SDRAM) <img src="https://img.shields.io/github/stars/WangXuan95/FPGA-DDR-SDRAM?style=social"/> : An AXI4-based DDR1 controller to realize mass, cheap memory for FPGA. 基于FPGA的DDR1控制器，为低端FPGA嵌入式系统提供廉价、大容量的存储。 
+
+      - [adibis/DDR2_Controller](https://github.com/adibis/DDR2_Controller) <img src="https://img.shields.io/github/stars/adibis/DDR2_Controller?style=social"/> : DDR2 memory controller written in Verilog.
+
+      - [BrianHGinc/BrianHG-DDR3-Controller](https://github.com/BrianHGinc/BrianHG-DDR3-Controller) <img src="https://img.shields.io/github/stars/BrianHGinc/BrianHG-DDR3-Controller?style=social"/> : DDR3 Controller v1.60, 16 read/write ports, configurable widths, priority, auto-burst size & cache on each port. VGA/HDMI multiwindow video controller with alpha-blended layers. Docs & TBs included. 
+
+      - [someone755/ddr3-controller](https://github.com/someone755/ddr3-controller) <img src="https://img.shields.io/github/stars/someone755/ddr3-controller?style=social"/> : A DDR3(L) PHY and controller, written in Verilog, for Xilinx 7-Series FPGAs.
 
 
 
