@@ -390,6 +390,7 @@
     - [2022-10-16，研读|基于FPGA脉冲神经网络模型设计与实现](https://mp.weixin.qq.com/s/kkFeerMgtdnj--7AoOHV4A)
   - 微信公众号「FPGA设计论坛」
     - [2023-03-08，未来的高性能FPGA是否会优于GPU？](https://mp.weixin.qq.com/s/-UvhpvHid8GwzC4y5_WTLg)
+    - [2023-04-22，FPGA与处理器技术的的应用领域](https://mp.weixin.qq.com/s/k9JeLNyHVkQfIBPmEzVtdw)
   - 微信公众号「数字IC打工人」
     - [2023-03-17，【行业干货】IC各细分领域公司简介以及薪资调研（GPU篇）](https://mp.weixin.qq.com/s/ZPuqE9wWu_jCQNFXPwGyzA)
   - 微信公众号「中国计算机学会」
