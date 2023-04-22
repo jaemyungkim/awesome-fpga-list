@@ -340,6 +340,7 @@
   - 微信公众号「疯狂的FPGA」
     - [2023-03-09，《FPGA图像加速》第二章-bilibili回播入口](https://mp.weixin.qq.com/s/GEKZkMgKLYlhMSR6TCyUhQ)
     - [2023-04-11，国内唯一的纯FPGA论坛，发布](https://mp.weixin.qq.com/s/a6vliiR-XOftaBA-r6fGYw)
+    - [2023-04-21，从入门到放弃，坚持一年时间很难](https://mp.weixin.qq.com/s/O2Cv3qIOnkA8Qhgg6r9o4w)
   - 微信公众号「FPGA探索者」
     - [2023-04-06，往年FPGA、数字IC实习秋招面试汇总贴 + 复习建议，收藏！](https://mp.weixin.qq.com/s/mAs857VDUrUtLA2fytlT9A)
   - 微信公众号「FPGA之家」
