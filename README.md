@@ -9,7 +9,8 @@
     - [Awesome List](#awesome-list)
     - [Learning Resources](#learning-resources)
   - [Hardware Description Language](#hardware-description-language)
-    - [Scala HDL](#scals-hdl)
+    - [C HDL](#c-hdl)
+    - [Scala HDL](#scala-hdl)
     - [Rust HDL](#rust-hdl)
     - [Python HDL](#python-hdl)
   - [FPGA Applications](#fpga-applications)
@@ -21,6 +22,8 @@
       - [IP Generator](#ip-generator)
       - [PCIe Core](#pcie-core)
       - [DDR Core](#ddr-core)
+      - [Ethernet Core](#ethernet-core)
+    - [Wifi](#wifi)  
     - [Camera Firmware](#camera-firmware)
     - [Spiking Neural Network](#spiking-neural-network)
     - [Convolutional Neural Network](#convolutional-neural-network)
@@ -63,18 +66,30 @@
 
     - [mikeroyal/Verilog-SystemVerilog-Guide](https://github.com/mikeroyal/Verilog-SystemVerilog-Guide) <img src="https://img.shields.io/github/stars/mikeroyal/Verilog-SystemVerilog-Guide?style=social"/> : Verilog/SystemVerilog Guide. A guide covering Verilog & SystemVerilog including the applications, libraries and tools that will make you a better and more efficient developer by having a better understanding of how hardware works on the lowest level.
 
+    - [analogdevicesinc/hdl](https://github.com/analogdevicesinc/hdl) <img src="https://img.shields.io/github/stars/analogdevicesinc/hdl?style=social"/> : HDL libraries and projects. [wiki.analog.com/resources/fpga/docs/hdl](https://wiki.analog.com/resources/fpga/docs/hdl)
+
+    - [analogdevicesinc/hdl](https://github.com/FPGAwars/apio) <img src="https://img.shields.io/github/stars/FPGAwars/apio?style=social"/> : 🌱 Open source ecosystem for open FPGA boards. [github.com/FPGAwars/apio/wiki](https://github.com/FPGAwars/apio/wiki)
+
+
+
 
 
   - ### Learning Resources
 
     - [sipeed/TangPrimer-20K-example#cam2lcd](https://github.com/sipeed/TangPrimer-20K-example#cam2lcd) <img src="https://img.shields.io/github/stars/sipeed/TangPrimer-20K-example#cam2lcd?style=social"/> : AIoT opensource hardware platform. TangPrimer-20K-example project.
 
+    - [BrunoLevy/learn-fpga](https://github.com/BrunoLevy/learn-fpga) <img src="https://img.shields.io/github/stars/BrunoLevy/learn-fpga?style=social"/> : About Learning FPGA, yosys, nextpnr, and RISC-V
 
 
 
 
 
 ## Hardware Description Language
+
+  - ### C HDL
+
+    - [LiteX](https://github.com/enjoy-digital/litex) <img src="https://img.shields.io/github/stars/enjoy-digital/litex?style=social"/> : The LiteX framework provides a convenient and efficient infrastructure to create FPGA Cores/SoCs, to explore various digital design architectures and create[full FPGA based systems](https://github.com/enjoy-digital/litex/wiki/Projects). 
+
 
   - ### Scala HDL
 
@@ -149,10 +164,10 @@
 
 
     - #### GPU
+
       - [Ventus(承影)](https://github.com/THU-DSP-LAB/ventus-gpgpu) <img src="https://img.shields.io/github/stars/THU-DSP-LAB/ventus-gpgpu?style=social"/> : Ventus(承影) GPGPU. GPGPU processor supporting RISCV-V extension, developed with [Chisel](https://github.com/chipsalliance/chisel) HDL.
 
-
-
+      - [jbush001/NyuziProcessor](https://github.com/jbush001/NyuziProcessor) <img src="https://img.shields.io/github/stars/jbush001/NyuziProcessor?style=social"/> : Nyuzi is an experimental GPGPU processor focused on compute intensive tasks. It includes a synthesizable hardware design written in System Verilog, an instruction set emulator, an LLVM based C/C++ compiler, software libraries, and tests. 
 
 
 
@@ -192,6 +207,20 @@
 
 
 
+    - #### Ethernet Core
+
+      - [alexforencich/verilog-ethernet](https://github.com/alexforencich/verilog-ethernet) <img src="https://img.shields.io/github/stars/alexforencich/verilog-ethernet?style=social"/> : Verilog Ethernet components for FPGA implementation.
+
+
+
+
+  - ### Wifi
+
+    - [ChFrenkel/tinyODIN](https://github.com/open-sdr/openwifi) <img src="https://img.shields.io/github/stars/open-sdr/openwifi?style=social"/> : open-source IEEE 802.11 WiFi baseband FPGA (chip) design: driver, software.
+
+
+
+
 
   - ### Camera Firmware
 
@@ -221,6 +250,9 @@
     - [ZFTurbo/MobileNet-in-FPGA](https://github.com/ZFTurbo/MobileNet-in-FPGA) <img src="https://img.shields.io/github/stars/ZFTurbo/MobileNet-in-FPGA?style=social"/> : Generator of verilog description for FPGA MobileNet implementation.
 
     - [MasLiang/CNN-On-FPGA](https://github.com/MasLiang/CNN-On-FPGA) <img src="https://img.shields.io/github/stars/MasLiang/CNN-On-FPGA?style=social"/> : This is the code of the CNN on FPGA.But this can only be used for reference at present for some files are write coarsly using ISE.
+
+    - [PipeCNN](https://github.com/doonny/PipeCNN) <img src="https://img.shields.io/github/stars/doonny/PipeCNN?style=social"/> : PipeCNN is an OpenCL-based FPGA Accelerator for Large-Scale Convolutional Neural Networks (CNNs).
+
 
 
 
@@ -384,6 +416,8 @@
     - [2023-04-06，往年FPGA、数字IC实习秋招面试汇总贴 + 复习建议，收藏！](https://mp.weixin.qq.com/s/mAs857VDUrUtLA2fytlT9A)
   - 微信公众号「FPGA之家」
     - [2023-01-20，FPGA相关知识系统介绍](https://mp.weixin.qq.com/s/WF6uofAdSzMRPeEZ029KLQ)   
+    - [2023-04-23，Xilinx FPGA的约束设计和时序分析总结](https://mp.weixin.qq.com/s/aZHdhqwzlREjXwg8Sjq2oA)   
+
   - 微信公众号「深蓝AI」
     - [2023-04-05，稚晖君的机器人创业团队招聘](https://mp.weixin.qq.com/s/zu0JMOdWYk79YRMdr1Q3gg)
   - 微信公众号「AIIC Xidian」
