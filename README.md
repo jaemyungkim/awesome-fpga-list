@@ -216,7 +216,7 @@
 
   - ### Wifi
 
-    - [ChFrenkel/tinyODIN](https://github.com/open-sdr/openwifi) <img src="https://img.shields.io/github/stars/open-sdr/openwifi?style=social"/> : open-source IEEE 802.11 WiFi baseband FPGA (chip) design: driver, software.
+    - [openwifi](https://github.com/open-sdr/openwifi) <img src="https://img.shields.io/github/stars/open-sdr/openwifi?style=social"/> : open-source IEEE 802.11 WiFi baseband FPGA (chip) design: driver, software.
 
 
 
