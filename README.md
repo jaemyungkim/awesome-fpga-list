@@ -28,6 +28,7 @@
     - [Spiking Neural Network](#spiking-neural-network)
     - [Convolutional Neural Network](#convolutional-neural-network)
     - [Object Detection](#object-detection)
+    - [Visual SLAM](#visual-slam)
   - [Blogs](#blogs)
 
 
@@ -319,6 +320,14 @@
 
 
 
+  - ### Visual SLAM
+
+    - [sdoira/U96-SLAM](https://github.com/sdoira/U96-SLAM) <img src="https://img.shields.io/github/stars/sdoira/U96-SLAM?style=social"/> : Visual SLAM on Ultra96-V2.
+
+
+
+
+
 ## Blogs
 
   - [bilibili「老石谈芯」| 微信公众号「老石谈芯」](https://space.bilibili.com/612932327)
@@ -380,6 +389,8 @@
     - [2023-04-06，世界上最伟大的开源作品-基于FPGA的开源摄影机--Axiom Camera](https://mp.weixin.qq.com/s/MVLeBwgpCvKlrqwaNzv4dA)
     - [2023-04-19，基于 FPGA 的低成本、低延时成像系统](https://mp.weixin.qq.com/s/kSC5Y_0vpmMhy718PhUVsw)
     - [2023-04-21，MIPI摄像头工程=7系列FPGA + OV5640(MIPI) + 15 分钟 + VITIS](https://mp.weixin.qq.com/s/h3hbl7pynhml2t4sOg9tHw)
+    - [2023-04-24，在 FPGA 上快速构建 PID 算法](https://mp.weixin.qq.com/s/ozFDxLCCqYkusHCbC0QajQ)
+    - [2023-04-24，Verilog“七宗罪”](https://mp.weixin.qq.com/s/mVcp4AJPXk7zmNfEjHNiBw)
   - 微信公众号「FPGA之旅」
     - [2022-08-29，FPGA点亮LED灯](https://mp.weixin.qq.com/s/OtBMm6iy8jrpHAl-FUI7XA)
     - [2022-08-29，FPGA实现按键模块](https://mp.weixin.qq.com/s/wgOKGlKHXeyX2FNhTRzfIA)
@@ -417,7 +428,6 @@
   - 微信公众号「FPGA之家」
     - [2023-01-20，FPGA相关知识系统介绍](https://mp.weixin.qq.com/s/WF6uofAdSzMRPeEZ029KLQ)   
     - [2023-04-23，Xilinx FPGA的约束设计和时序分析总结](https://mp.weixin.qq.com/s/aZHdhqwzlREjXwg8Sjq2oA)   
-
   - 微信公众号「深蓝AI」
     - [2023-04-05，稚晖君的机器人创业团队招聘](https://mp.weixin.qq.com/s/zu0JMOdWYk79YRMdr1Q3gg)
   - 微信公众号「AIIC Xidian」
@@ -425,6 +435,7 @@
   - 微信公众号「FPGA设计论坛」
     - [2023-03-08，未来的高性能FPGA是否会优于GPU？](https://mp.weixin.qq.com/s/-UvhpvHid8GwzC4y5_WTLg)
     - [2023-04-22，FPGA与处理器技术的的应用领域](https://mp.weixin.qq.com/s/k9JeLNyHVkQfIBPmEzVtdw)
+    - [2023-04-26，采用FPGA实现FFT算法](https://mp.weixin.qq.com/s/giscBXdTA3vD7qedXgbyZA)
   - 微信公众号「数字IC打工人」
     - [2023-03-17，【行业干货】IC各细分领域公司简介以及薪资调研（GPU篇）](https://mp.weixin.qq.com/s/ZPuqE9wWu_jCQNFXPwGyzA)
   - 微信公众号「中国计算机学会」
@@ -461,3 +472,5 @@
     - [2023-01-20，访谈 | RISC-V 开发板 AI 应用开发实践](https://mp.weixin.qq.com/s/rDaYQTrD7mVHVVaEV3hLXw)
   - 微信公众号「佐思汽车研究」
     - [2023-03-30，智能汽车全景图—核心芯片微门户](https://mp.weixin.qq.com/s/pYDFF77MaLxu4nCYwDha7w)
+  - 微信公众号「FPGA研究院」
+    - [2023-04-26，基于FPGA实现FIR数字滤波电路的设计及应用](https://mp.weixin.qq.com/s/zEDwSMapNXg86qH5MtPYsQ)
