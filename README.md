@@ -377,6 +377,9 @@
     - [2023-03-10，从FPGA说起的深度学习（五）](https://mp.weixin.qq.com/s/WoSe5hn_G-2jQU31lvd9SQ)
     - [2023-04-12，从FPGA说起的深度学习（六）-任务并行性](https://mp.weixin.qq.com/s/P6M4nd-svjC95J9qIy_4yQ)
     - [2023-04-17，从FPGA说起的深度学习（七）-循环并行化](https://mp.weixin.qq.com/s/xe-SHMNI8a5iH7jrkDB1pA)
+    - [2023-04-28，从FPGA说起的深度学习（八）-数据并行性](https://mp.weixin.qq.com/s/1B0QellaAcL_vXRpUNgUcg)
+    - [2023-05-06，从FPGA说起的深度学习（九）- 优化最终章](https://mp.weixin.qq.com/s/EyK6nO09FxzHFJTM7TjwTQ)
+    - [2023-05-10，从FPGA说起的深度学习（十）](https://mp.weixin.qq.com/s/5vCvRRyyPfm6TEa9TmEsww)
     - [2023-03-13，在FPGA设计中怎么应用ChatGPT？](https://mp.weixin.qq.com/s/BvCFoAi9tAvSs4QS4BFRdA)
     - [2023-03-17，卧槽，这才是最强Verilog刷题网站！](https://mp.weixin.qq.com/s/vRBxv3-2GOclFeELhdT62w)
     - [2023-03-17，还在为没有项目做发愁？这几个神级开源网站，都是FPGA/IC项目](https://mp.weixin.qq.com/s/mbx8l6nRilcVOMjMQU7iUA)    
@@ -391,6 +394,7 @@
     - [2023-04-21，MIPI摄像头工程=7系列FPGA + OV5640(MIPI) + 15 分钟 + VITIS](https://mp.weixin.qq.com/s/h3hbl7pynhml2t4sOg9tHw)
     - [2023-04-24，在 FPGA 上快速构建 PID 算法](https://mp.weixin.qq.com/s/ozFDxLCCqYkusHCbC0QajQ)
     - [2023-04-24，Verilog“七宗罪”](https://mp.weixin.qq.com/s/mVcp4AJPXk7zmNfEjHNiBw)
+    - [2023-05-08，FPGA上的视觉 SLAM](https://mp.weixin.qq.com/s/S2wicdaN_3kkJbexLuQGMw)
   - 微信公众号「FPGA之旅」
     - [2022-08-29，FPGA点亮LED灯](https://mp.weixin.qq.com/s/OtBMm6iy8jrpHAl-FUI7XA)
     - [2022-08-29，FPGA实现按键模块](https://mp.weixin.qq.com/s/wgOKGlKHXeyX2FNhTRzfIA)
@@ -419,6 +423,8 @@
     - [2023-02-12，​往期精选：基于FPGA的电子计算器系统设计（附代码）](https://mp.weixin.qq.com/s/SW1YBrB6ujVuAO3YjS1ywQ)
     - [2023-02-14，​国产芯片生态图谱（2022最新版）](https://mp.weixin.qq.com/s/CJW3aARsnyHSc6Iw8eRLJg)
     - [2023-04-21，​万能芯片 — FPGA](https://mp.weixin.qq.com/s/RVDMBGV605msuDbyGscf4Q)
+    - [2023-04-28，​为什么需要FPGA原型验证？](https://mp.weixin.qq.com/s/DafVnlzemBQojsorGJ0W5w)
+    - [2023-05-11，​基于FPGA的实时图像边缘检测系统设计（附代码）](https://mp.weixin.qq.com/s/28TuVKvuaTBV1cv37yNRCw)
   - 微信公众号「疯狂的FPGA」
     - [2023-03-09，《FPGA图像加速》第二章-bilibili回播入口](https://mp.weixin.qq.com/s/GEKZkMgKLYlhMSR6TCyUhQ)
     - [2023-04-11，国内唯一的纯FPGA论坛，发布](https://mp.weixin.qq.com/s/a6vliiR-XOftaBA-r6fGYw)
@@ -428,6 +434,7 @@
   - 微信公众号「FPGA之家」
     - [2023-01-20，FPGA相关知识系统介绍](https://mp.weixin.qq.com/s/WF6uofAdSzMRPeEZ029KLQ)   
     - [2023-04-23，Xilinx FPGA的约束设计和时序分析总结](https://mp.weixin.qq.com/s/aZHdhqwzlREjXwg8Sjq2oA)   
+    - [2023-04-28，FPGA设计原则总结](https://mp.weixin.qq.com/s/rBGuQR0OlmfkKXf3rVHCbw)   
   - 微信公众号「深蓝AI」
     - [2023-04-05，稚晖君的机器人创业团队招聘](https://mp.weixin.qq.com/s/zu0JMOdWYk79YRMdr1Q3gg)
   - 微信公众号「AIIC Xidian」
@@ -474,3 +481,8 @@
     - [2023-03-30，智能汽车全景图—核心芯片微门户](https://mp.weixin.qq.com/s/pYDFF77MaLxu4nCYwDha7w)
   - 微信公众号「FPGA研究院」
     - [2023-04-26，基于FPGA实现FIR数字滤波电路的设计及应用](https://mp.weixin.qq.com/s/zEDwSMapNXg86qH5MtPYsQ)
+  - 微信公众号「FPGA开发圈」
+    - [2023-04-28，FPGA掀起新一轮卡位战？](https://mp.weixin.qq.com/s/myUH8DNVS0uQlY6Anz446g)
+  - 微信公众号「OpenIC」
+    - [2023-05-13，OPPO 造芯500亿大败局，中国“芯”何去何从？](https://mp.weixin.qq.com/s/t4nmKkiYemr1u_Xdb5F4aQ)
+    - [2023-05-14，OPPO关停自研芯片业务，背后原因几何？](https://mp.weixin.qq.com/s/sl4KmokOAyDw5mnMhA-T4g)
