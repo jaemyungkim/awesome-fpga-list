@@ -23,6 +23,7 @@
       - [PCIe Core](#pcie-core)
       - [DDR Core](#ddr-core)
       - [Ethernet Core](#ethernet-core)
+      - [UART Core](#uart-core)
     - [Wifi](#wifi)  
     - [Camera Firmware](#camera-firmware)
     - [Spiking Neural Network](#spiking-neural-network)
@@ -211,6 +212,17 @@
     - #### Ethernet Core
 
       - [alexforencich/verilog-ethernet](https://github.com/alexforencich/verilog-ethernet) <img src="https://img.shields.io/github/stars/alexforencich/verilog-ethernet?style=social"/> : Verilog Ethernet components for FPGA implementation.
+
+
+
+
+    - #### UART Core
+
+      - [ZipCPU/wbuart32](https://github.com/ZipCPU/wbuart32) <img src="https://img.shields.io/github/stars/ZipCPU/wbuart32?style=social"/> : A simple, basic, formally verified UART controller.
+
+
+
+
 
 
 
