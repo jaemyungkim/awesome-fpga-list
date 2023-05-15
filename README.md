@@ -379,6 +379,7 @@
     - [2022-05-18，裸辞回国+放弃百w年薪，我是不是疯了？](https://mp.weixin.qq.com/s/j100HqS__26h_zhUml5pQg)
     - [2022-08-01，如何设计一个RISC-V处理器？](https://mp.weixin.qq.com/s/ordM_ITgTBW61RHGld1HAw)
     - [2022-12-14，用软件开发FPGA：机械臂设计保姆级教程](https://mp.weixin.qq.com/s/s3rES6-aDKscRvVR2LZlAw)
+    - [2023-04-25，芯片从业者：你们的好日子在后头 ](https://mp.weixin.qq.com/s/O4DoYkP5tHfxdZA783U81A)
   - 微信公众号「OpenFPGA」
     - [2022-05-31，优秀的 Verilog/FPGA开源项目介绍（二十四）- 脉冲神经网络 (SNN)](https://mp.weixin.qq.com/s/-sCsRLK7uh5jZZ4FSc1t6g)
     - [2023-01-06，优秀的 Verilog/FPGA开源项目介绍（三十六）-RISC-V（新增一）](https://mp.weixin.qq.com/s/cbgGrGdKS1tUBQc1j3Fhpw)
