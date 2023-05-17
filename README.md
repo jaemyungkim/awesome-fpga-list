@@ -438,6 +438,7 @@
     - [2023-04-21，​万能芯片 — FPGA](https://mp.weixin.qq.com/s/RVDMBGV605msuDbyGscf4Q)
     - [2023-04-28，​为什么需要FPGA原型验证？](https://mp.weixin.qq.com/s/DafVnlzemBQojsorGJ0W5w)
     - [2023-05-11，​基于FPGA的实时图像边缘检测系统设计（附代码）](https://mp.weixin.qq.com/s/28TuVKvuaTBV1cv37yNRCw)
+    - [2023-05-16，​基于FPGA的单目内窥镜定位系统设计（附代码）](https://mp.weixin.qq.com/s/D0_AIic00y4y1Ice0iUsTA)
   - 微信公众号「疯狂的FPGA」
     - [2023-03-09，《FPGA图像加速》第二章-bilibili回播入口](https://mp.weixin.qq.com/s/GEKZkMgKLYlhMSR6TCyUhQ)
     - [2023-04-11，国内唯一的纯FPGA论坛，发布](https://mp.weixin.qq.com/s/a6vliiR-XOftaBA-r6fGYw)
