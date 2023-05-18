@@ -433,12 +433,16 @@
     - [2022-11-06，​FPGA实现Sobel算法进行边沿检测](https://mp.weixin.qq.com/s/aF0-jXrvwIva03-wX9Sh3Q)
     - [2022-12-03，​FPGA的工作原理，一篇全掌握！](https://mp.weixin.qq.com/s/pE-M9acv_oiIyMnr0gAomw)
   - 微信公众号「FPGA技术江湖」
+    - [2020-07-24，基于FPGA的单目内窥镜定位系统设计（上）](https://mp.weixin.qq.com/s/ASGphfySxZ0Nh2_D-11pcA)
+    - [2020-07-25，​基于FPGA的单目内窥镜定位系统设计（中）](https://mp.weixin.qq.com/s/P_SITtBMvUdjPaCQZYuGWw)
+    - [2020-07-26，基于FPGA的单目内窥镜定位系统设计（下）](https://mp.weixin.qq.com/s/sPPhouAym54zXdDNWYqZJg)
     - [2023-02-12，​往期精选：基于FPGA的电子计算器系统设计（附代码）](https://mp.weixin.qq.com/s/SW1YBrB6ujVuAO3YjS1ywQ)
     - [2023-02-14，​国产芯片生态图谱（2022最新版）](https://mp.weixin.qq.com/s/CJW3aARsnyHSc6Iw8eRLJg)
     - [2023-04-21，​万能芯片 — FPGA](https://mp.weixin.qq.com/s/RVDMBGV605msuDbyGscf4Q)
     - [2023-04-28，​为什么需要FPGA原型验证？](https://mp.weixin.qq.com/s/DafVnlzemBQojsorGJ0W5w)
     - [2023-05-11，​基于FPGA的实时图像边缘检测系统设计（附代码）](https://mp.weixin.qq.com/s/28TuVKvuaTBV1cv37yNRCw)
     - [2023-05-16，​基于FPGA的单目内窥镜定位系统设计（附代码）](https://mp.weixin.qq.com/s/D0_AIic00y4y1Ice0iUsTA)
+    - [2023-05-18，​基于FPGA的CAN总线控制器的设计](https://mp.weixin.qq.com/s/myvp55su7TltPGTYwMZuaQ)
   - 微信公众号「疯狂的FPGA」
     - [2023-03-09，《FPGA图像加速》第二章-bilibili回播入口](https://mp.weixin.qq.com/s/GEKZkMgKLYlhMSR6TCyUhQ)
     - [2023-04-11，国内唯一的纯FPGA论坛，发布](https://mp.weixin.qq.com/s/a6vliiR-XOftaBA-r6fGYw)
@@ -457,6 +461,7 @@
     - [2023-03-08，未来的高性能FPGA是否会优于GPU？](https://mp.weixin.qq.com/s/-UvhpvHid8GwzC4y5_WTLg)
     - [2023-04-22，FPGA与处理器技术的的应用领域](https://mp.weixin.qq.com/s/k9JeLNyHVkQfIBPmEzVtdw)
     - [2023-04-26，采用FPGA实现FFT算法](https://mp.weixin.qq.com/s/giscBXdTA3vD7qedXgbyZA)
+    - [2023-05-18，基于ARM的FPGA嵌入式系统实现](https://mp.weixin.qq.com/s/UnzTIvgCxwWRTtH3342BJA)
   - 微信公众号「数字IC打工人」
     - [2023-03-17，【行业干货】IC各细分领域公司简介以及薪资调研（GPU篇）](https://mp.weixin.qq.com/s/ZPuqE9wWu_jCQNFXPwGyzA)
   - 微信公众号「中国计算机学会」
