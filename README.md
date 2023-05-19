@@ -457,6 +457,7 @@
     - [2023-04-05，稚晖君的机器人创业团队招聘](https://mp.weixin.qq.com/s/zu0JMOdWYk79YRMdr1Q3gg)
   - 微信公众号「AIIC Xidian」
     - [2022-10-16，研读|基于FPGA脉冲神经网络模型设计与实现](https://mp.weixin.qq.com/s/kkFeerMgtdnj--7AoOHV4A)
+    - [2023-05-18，研读|基于FPGA的卷积神经网络交通信号灯分类的设计与实现](https://mp.weixin.qq.com/s/UX-d2RdXeR6KtwmFEjshTA)
   - 微信公众号「FPGA设计论坛」
     - [2023-03-08，未来的高性能FPGA是否会优于GPU？](https://mp.weixin.qq.com/s/-UvhpvHid8GwzC4y5_WTLg)
     - [2023-04-22，FPGA与处理器技术的的应用领域](https://mp.weixin.qq.com/s/k9JeLNyHVkQfIBPmEzVtdw)
