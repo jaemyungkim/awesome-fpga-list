@@ -432,6 +432,7 @@
     - [2022-10-22，串口VGA搭配SDRAM_FIFO显示图片](https://mp.weixin.qq.com/s/C5tK3S8KJL2hHQam-6E-sA)
     - [2022-11-06，​FPGA实现Sobel算法进行边沿检测](https://mp.weixin.qq.com/s/aF0-jXrvwIva03-wX9Sh3Q)
     - [2022-12-03，​FPGA的工作原理，一篇全掌握！](https://mp.weixin.qq.com/s/pE-M9acv_oiIyMnr0gAomw)
+    - [2023-05-20，​FPGA实现MPU6050姿态解算](https://mp.weixin.qq.com/s/9s5y4Z4jJcEK_vp5B84x0Q)
   - 微信公众号「FPGA技术江湖」
     - [2020-07-24，基于FPGA的单目内窥镜定位系统设计（上）](https://mp.weixin.qq.com/s/ASGphfySxZ0Nh2_D-11pcA)
     - [2020-07-25，​基于FPGA的单目内窥镜定位系统设计（中）](https://mp.weixin.qq.com/s/P_SITtBMvUdjPaCQZYuGWw)
@@ -506,3 +507,5 @@
   - 微信公众号「OpenIC」
     - [2023-05-13，OPPO 造芯500亿大败局，中国“芯”何去何从？](https://mp.weixin.qq.com/s/t4nmKkiYemr1u_Xdb5F4aQ)
     - [2023-05-14，OPPO关停自研芯片业务，背后原因几何？](https://mp.weixin.qq.com/s/sl4KmokOAyDw5mnMhA-T4g)
+  - 微信公众号「腾讯科技」
+    - [2023-05-20，揭秘Meta的AI武器库：有两款自研芯片，还有一台超算](https://mp.weixin.qq.com/s/QU1Sgg_WAzZjNbUbvBJp2Q)
