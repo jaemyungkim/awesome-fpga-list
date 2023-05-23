@@ -8,6 +8,7 @@
   - [Summary](#summary)
     - [Awesome List](#awesome-list)
     - [Learning Resources](#learning-resources)
+    - [Open Development Board](#open-development-board)
   - [Hardware Description Language](#hardware-description-language)
     - [C HDL](#c-hdl)
     - [Scala HDL](#scala-hdl)
@@ -18,18 +19,29 @@
       - [CPU](#cpu)
         - [RISC-V](#risc-v)
       - [GPU](#gpu)
-    - [IP Core](#ip-core)
+    - [IP Module](#ip-module)
       - [IP Generator](#ip-generator)
-      - [PCIe Core](#pcie-core)
-      - [DDR Core](#ddr-core)
-      - [Ethernet Core](#ethernet-core)
-      - [UART Core](#uart-core)
-    - [Wifi](#wifi)  
+      - [PCIe Module](#pcie-module)
+      - [DDR Module](#ddr-module)
+      - [Ethernet Module](#ethernet-module)
+      - [WIFI Module](#wifi-module)
+      - [UART Module](#uart-module)
+      - [USB Module](#usb-module)
+      - [CAN-bus Module](#can-bus-module)
+      - [AXI Module](#axi-module)
+      - [HDMI Module](#hdmi-module)
+      - [SD-card Module](#sd-card-module)
+      - [NFC Module](#nfc-module)
+      - [SATA Module](#sata-module)
+      - [DAC Module](#dac-module)
     - [Camera Firmware](#camera-firmware)
     - [Spiking Neural Network](#spiking-neural-network)
     - [Convolutional Neural Network](#convolutional-neural-network)
     - [Object Detection](#object-detection)
     - [Visual SLAM](#visual-slam)
+    - [Image Compression](#image-compression)
+    - [Motor Control](#motor-control)
+    - [Fixed-point](#fixed-point)
   - [Blogs](#blogs)
 
 
@@ -78,9 +90,24 @@
 
   - ### Learning Resources
 
-    - [sipeed/TangPrimer-20K-example#cam2lcd](https://github.com/sipeed/TangPrimer-20K-example#cam2lcd) <img src="https://img.shields.io/github/stars/sipeed/TangPrimer-20K-example#cam2lcd?style=social"/> : AIoT opensource hardware platform. TangPrimer-20K-example project.
+    - [sipeed/TangPrimer-20K-example](https://github.com/sipeed/TangPrimer-20K-example) <img src="https://img.shields.io/github/stars/sipeed/TangPrimer-20K-example?style=social"/> : AIoT opensource hardware platform. TangPrimer-20K-example project.
 
     - [BrunoLevy/learn-fpga](https://github.com/BrunoLevy/learn-fpga) <img src="https://img.shields.io/github/stars/BrunoLevy/learn-fpga?style=social"/> : About Learning FPGA, yosys, nextpnr, and RISC-V
+
+    - [WangXuan95/ZedBoard-Tutorial](https://github.com/WangXuan95/ZedBoard-Tutorial) <img src="https://img.shields.io/github/stars/WangXuan95/ZedBoard-Tutorial?style=social"/> : Vivado+PetaLinux 系统搭建教程 —— 基于 Zedboard.
+
+
+
+
+
+  - ### Open Development Board
+
+    - [WangXuan95/UniPlug-FPGA](https://github.com/WangXuan95/UniPlug-FPGA) <img src="https://img.shields.io/github/stars/WangXuan95/UniPlug-FPGA?style=social"/> : 体积小、低成本、易用、扩展性强的 FPGA 核心板。
+
+
+
+
+
 
 
 
@@ -105,7 +132,27 @@
 
     - [Veryl](https://github.com/dalance/veryl) <img src="https://img.shields.io/github/stars/dalance/veryl?style=social"/> : Veryl: A Modern Hardware Description Language.
 
+    - [RustHDL](https://github.com/samitbasu/rust-hdl) <img src="https://img.shields.io/github/stars/samitbasu/rust-hdl?style=social"/> : A framework for writing FPGA firmware using the Rust Programming Language.
+
     - [VHDL-LS/rust_hdl](https://github.com/VHDL-LS/rust_hdl) <img src="https://img.shields.io/github/stars/VHDL-LS/rust_hdl?style=social"/> : This repository contains a fast VHDL language server and analysis library written in Rust.
+
+    - [yupferris/kaze](https://github.com/yupferris/kaze) <img src="https://img.shields.io/github/stars/yupferris/kaze?style=social"/> : An [HDL](https://en.wikipedia.org/wiki/Hardware_description_language) embedded in Rust. kaze provides an API to describe Modules composed of Signals, which can then be used to generate Rust simulator code or Verilog modules.
+
+    - [dalance/sv-parser](https://github.com/dalance/sv-parser) <img src="https://img.shields.io/github/stars/dalance/sv-parser?style=social"/> : SystemVerilog parser library fully compliant with IEEE 1800-2017.
+
+    - [dalance/svls](https://github.com/dalance/svls) <img src="https://img.shields.io/github/stars/dalance/svls?style=social"/> : SystemVerilog language server.
+
+    - [dalance/svlint](https://github.com/dalance/svlint) <img src="https://img.shields.io/github/stars/dalance/svlint?style=social"/> : SystemVerilog linter.
+
+    - [vivekmalneedi/veridian](https://github.com/vivekmalneedi/veridian) <img src="https://img.shields.io/github/stars/vivekmalneedi/veridian?style=social"/> : A SystemVerilog Language Server.
+
+    - [zachjs/sv2v](https://github.com/zachjs/sv2v) <img src="https://img.shields.io/github/stars/zachjs/sv2v?style=social"/> : SystemVerilog to Verilog conversion.
+
+
+
+
+    
+
 
 
 
@@ -162,6 +209,7 @@
 
         - [ultraembedded/biriscv](https://github.com/ultraembedded/biriscv) <img src="https://img.shields.io/github/stars/ultraembedded/biriscv?style=social"/> : 32-bit Superscalar RISC-V CPU.
 
+        - [WangXuan95/USTC-RVSoC](https://github.com/WangXuan95/USTC-RVSoC) <img src="https://img.shields.io/github/stars/ZipCPU/wbuart32?style=social"/> : An FPGA-based RISC-V CPU+SoC with a simple and extensible peripheral bus. 基于FPGA的RISC-V CPU+SoC，包含一个简单且可扩展的外设总线。 
 
 
 
@@ -175,7 +223,7 @@
 
 
 
-  - ### IP Core
+  - ### IP Module
 
 
     - #### IP Generator
@@ -184,7 +232,9 @@
 
 
 
-    - #### PCIe Core
+    - #### PCIe Module
+
+      - [WangXuan95/Xilinx-FPGA-PCIe-XDMA-Tutorial](https://github.com/WangXuan95/Xilinx-FPGA-PCIe-XDMA-Tutorial) <img src="https://img.shields.io/github/stars/WangXuan95/Xilinx-FPGA-PCIe-XDMA-Tutorial?style=social"/> : Xilinx FPGA PCIe 保姆级教程 ——基于 PCIe XDMA IP核。
 
       - [Reconfigurable-Computing/Xilinx-FPGA-PCIe-XDMA-Tutorial](https://github.com/Reconfigurable-Computing/Xilinx-FPGA-PCIe-XDMA-Tutorial) <img src="https://img.shields.io/github/stars/Reconfigurable-Computing/Xilinx-FPGA-PCIe-XDMA-Tutorial?style=social"/> : Xilinx FPGA PCIe 保姆级教程 ——基于 PCIe XDMA IP核。
 
@@ -194,7 +244,7 @@
 
 
 
-    - #### DDR Core
+    - #### DDR Module
 
       - [ultraembedded/core_ddr3_controller](https://github.com/ultraembedded/core_ddr3_controller) <img src="https://img.shields.io/github/stars/ultraembedded/core_ddr3_controller?style=social"/> : A DDR3 memory controller in Verilog for various FPGAs.
 
@@ -206,30 +256,94 @@
 
       - [someone755/ddr3-controller](https://github.com/someone755/ddr3-controller) <img src="https://img.shields.io/github/stars/someone755/ddr3-controller?style=social"/> : A DDR3(L) PHY and controller, written in Verilog, for Xilinx 7-Series FPGAs.
 
+      - [WangXuan95/FPGA-DDR-SDRAM](https://github.com/WangXuan95/FPGA-DDR-SDRAM) <img src="https://img.shields.io/github/stars/WangXuan95/FPGA-DDR-SDRAM?style=social"/> : An AXI4-based DDR1 controller to realize mass, cheap memory for FPGA. 基于FPGA的DDR1控制器，为低端FPGA嵌入式系统提供廉价、大容量的存储。 
 
 
 
-    - #### Ethernet Core
+
+
+
+    - #### Ethernet Module
 
       - [alexforencich/verilog-ethernet](https://github.com/alexforencich/verilog-ethernet) <img src="https://img.shields.io/github/stars/alexforencich/verilog-ethernet?style=social"/> : Verilog Ethernet components for FPGA implementation.
 
 
 
+    - #### WIFI Module
 
-    - #### UART Core
+      - [openwifi](https://github.com/open-sdr/openwifi) <img src="https://img.shields.io/github/stars/open-sdr/openwifi?style=social"/> : open-source IEEE 802.11 WiFi baseband FPGA (chip) design: driver, software.
+
+
+
+    - #### UART Module
 
       - [ZipCPU/wbuart32](https://github.com/ZipCPU/wbuart32) <img src="https://img.shields.io/github/stars/ZipCPU/wbuart32?style=social"/> : A simple, basic, formally verified UART controller.
 
+      - [WangXuan95/Verilog-UART](https://github.com/WangXuan95/Verilog-UART) <img src="https://img.shields.io/github/stars/WangXuan95/Verilog-UART?style=social"/> : 3 independent modules for FPGA: UART receiver, UART transmitter, UART interactive debugger. 3个独立模块：UART接收器、UART发送器、UART交互式调试器。 
+
+
+
+
+    - #### USB Module
+
+      - [WangXuan95/FPGA-USB-Device](https://github.com/WangXuan95/FPGA-USB-Device) <img src="https://img.shields.io/github/stars/WangXuan95/FPGA-USB-Device?style=social"/> : An FPGA-based USB full-speed device core to implement USB-serial, USB-camera, USB-audio, USB-disk, USB-keyboard, etc. It requires only 3 FPGA common IOs rather than additional chips. 基于FPGA的USB full-speed device端控制器，可实现USB串口、USB摄像头、USB音频、U盘、USB键盘等设备，只需要3个FPGA普通IO，而不需要额外的接口芯片。
+
+
+
+    - #### CAN-bus Module
+
+      - [WangXuan95/FPGA-CAN](https://github.com/WangXuan95/FPGA-CAN) <img src="https://img.shields.io/github/stars/WangXuan95/FPGA-CAN?style=social"/> : An FPGA-based lightweight CAN bus controller. 基于FPGA的轻量级CAN总线控制器。 
+
+
+    - #### AXI Module
+
+      - [pulp-platform/axi](https://github.com/pulp-platform/axi) <img src="https://img.shields.io/github/stars/pulp-platform/axi?style=social"/> : AXI SystemVerilog synthesizable IP modules and verification infrastructure for high-performance on-chip communication.
+
+
+
+    - #### HDMI Module
+
+      - [hdl-util/hdmi](https://github.com/hdl-util/hdmi) <img src="https://img.shields.io/github/stars/hdl-util/hdmi?style=social"/> : Send video/audio over HDMI on an FPGA. [purisa.me/blog/hdmi-released/](https://purisa.me/blog/hdmi-released/)
+
+
+
+
+    - #### SD-card Module
+
+      - [WangXuan95/FPGA-SDcard-Reader](https://github.com/WangXuan95/FPGA-SDcard-Reader) <img src="https://img.shields.io/github/stars/WangXuan95/FPGA-SDcard-Reader?style=social"/> : An FPGA-based SD-card reader to read files from FAT16 or FAT32 formatted SD-cards. 基于FPGA的SD卡读取器，可以从FAT16或FAT32格式的SD卡中读取文件。
+
+
+      - [WangXuan95/FPGA-SDcard-Reader-SPI](https://github.com/WangXuan95/FPGA-SDcard-Reader-SPI) <img src="https://img.shields.io/github/stars/FPGA-SDcard-Reader-SPI?style=social"/> : An FPGA-based SD-card reader via SPI bus, which can read files from FAT16 or FAT32 formatted SD-cards. 基于FPGA的SD卡读取器(通过SPI总线)，可以从FAT16或FAT32格式的SD卡中读取文件。
+
+
+      - [WangXuan95/FPGA-SDfake](https://github.com/WangXuan95/FPGA-SDfake) <img src="https://img.shields.io/github/stars/WangXuan95/FPGA-SDfake?style=social"/> : Imitate SDcard using FPGAs. 使用FPGA模拟(伪装) SD卡。 
+
+
+      
+
+
+    - #### NFC Module
+
+      - [WangXuan95/FPGA-NFC](https://github.com/WangXuan95/FPGA-NFC) <img src="https://img.shields.io/github/stars/WangXuan95/FPGA-NFC?style=social"/> : Build an NFC (RFID) card reader using FPGA and simple circuit instead of RFID-specfic chip. 用FPGA+分立器件电路搭建一个NFC(RFID)读卡器，不需要专门的RFID芯片。 
 
 
 
 
 
+    - #### SATA Module
+
+      - [WangXuan95/FPGA-SATA-HBA](https://github.com/WangXuan95/FPGA-SATA-HBA) <img src="https://img.shields.io/github/stars/WangXuan95/FPGA-SATA-HBA?style=social"/> : A SATA host (HBA) core based on Xilinx FPGA with GTH. Easy to read/write hard disk. 一个基于Xilinx FPGA中的GTH的SATA host控制器，用来读写硬盘。 
 
 
-  - ### Wifi
 
-    - [openwifi](https://github.com/open-sdr/openwifi) <img src="https://img.shields.io/github/stars/open-sdr/openwifi?style=social"/> : open-source IEEE 802.11 WiFi baseband FPGA (chip) design: driver, software.
+    - #### DAC Module
+
+      - [WangXuan95/FPGA-DAC-R2R-PWM](https://github.com/WangXuan95/FPGA-DAC-R2R-PWM) <img src="https://img.shields.io/github/stars/WangXuan95/FPGA-DAC-R2R-PWM?style=social"/> : FPGA-based 14bit DAC with resistance network and PWM.  
+
+
+
+
+
 
 
 
@@ -339,6 +453,39 @@
 
 
 
+  - ### Image Compression
+
+    - [WangXuan95/FPGA-JPEG-LS-encoder](https://github.com/WangXuan95/FPGA-JPEG-LS-encoder) <img src="https://img.shields.io/github/stars/WangXuan95/FPGA-JPEG-LS-encoder?style=social"/> : An FPGA-based JPEG-LS encoder, which provides lossless and near-lossless image compression with high compression ratios. 基于FPGA的JPEG-LS编码器，可实现高压缩率的无损/近无损图象压缩。 
+
+    - [WangXuan95/FPGA-MPEG2-encoder](https://github.com/WangXuan95/FPGA-MPEG2-encoder) <img src="https://img.shields.io/github/stars/WangXuan95/FPGA-MPEG2-encoder?style=social"/> : FPGA-based high performance MPEG2 encoder for video compression. 基于 FPGA 的高性能 MPEG2 视频编码器，可实现视频压缩。 
+
+    - [WangXuan95/UH-JLS](https://github.com/WangXuan95/UH-JLS) <img src="https://img.shields.io/github/stars/WangXuan95/UH-JLS?style=social"/> : FPGA-based Ultra-High Throughput JPEG-LS encoder, which provides lossless image compression. 一个超高性能的FPGA JPEG-LS编码器，用来进行无损图象压缩。 
+
+
+
+
+
+
+  - ### Motor Control
+
+    - [WangXuan95/FPGA-FOC](https://github.com/WangXuan95/FPGA-FOC) <img src="https://img.shields.io/github/stars/FPGA-FOC?style=social"/> : FPGA-based Field Oriented Control (FOC) for driving BLDC/PMSM motor. 基于FPGA的FOC控制器，用于驱动BLDC/PMSM电机。  
+
+
+
+
+  - ### Fixed-point
+
+    - [WangXuan95/Verilog-FixedPoint](https://github.com/WangXuan95/Verilog-FixedPoint) <img src="https://img.shields.io/github/stars/Verilog-FixedPoint?style=social"/> : A Verilog fixed-point lib: custom bit width, arithmetic, converting to float, with single cycle & pipeline version. 一个Verilog定点数库，提供算术运算、与浮点数的互相转换，包含单周期和流水线两种实现。  
+
+
+
+
+
+
+
+
+
+
 
 ## Blogs
 
@@ -379,8 +526,13 @@
     - [2022-05-18，裸辞回国+放弃百w年薪，我是不是疯了？](https://mp.weixin.qq.com/s/j100HqS__26h_zhUml5pQg)
     - [2022-08-01，如何设计一个RISC-V处理器？](https://mp.weixin.qq.com/s/ordM_ITgTBW61RHGld1HAw)
     - [2022-12-14，用软件开发FPGA：机械臂设计保姆级教程](https://mp.weixin.qq.com/s/s3rES6-aDKscRvVR2LZlAw)
-    - [2023-04-25，芯片从业者：你们的好日子在后头 ](https://mp.weixin.qq.com/s/O4DoYkP5tHfxdZA783U81A)
+    - [2023-01-10，我的2022年度总结](https://mp.weixin.qq.com/s/BVkRQFBYZG4jBDmuQiTBoQ)
+    - [2023-04-09，ChatGPT爆火，为什么英伟达又赢麻了？](https://www.bilibili.com/video/BV1na4y1T732/?spm_id_from=333.999.0.0)
+    - [2023-04-25，芯片从业者：你们的好日子在后头](https://mp.weixin.qq.com/s/O4DoYkP5tHfxdZA783U81A)
+    - [2023-05-22，全网最深度分析：OPPO五百亿造芯梦碎，哲库是个错误吗？](https://www.bilibili.com/video/BV1az4y1b7cW/?spm_id_from=333.999.0.0)
+    - [2023-05-23，【万字长文】论OPPO哲库的倒下](https://mp.weixin.qq.com/s/3KKJTfVebz03JzkNhY3p3w)
   - 微信公众号「OpenFPGA」
+    - [2022-01-14，谈谈Verilog和SystemVerilog简史，FPGA设计是否需要学习SystemVerilog](https://mp.weixin.qq.com/s/ARVI4NUXFNG540VLTfglcg)
     - [2022-05-31，优秀的 Verilog/FPGA开源项目介绍（二十四）- 脉冲神经网络 (SNN)](https://mp.weixin.qq.com/s/-sCsRLK7uh5jZZ4FSc1t6g)
     - [2023-01-06，优秀的 Verilog/FPGA开源项目介绍（三十六）-RISC-V（新增一）](https://mp.weixin.qq.com/s/cbgGrGdKS1tUBQc1j3Fhpw)
     - [2023-01-30，从FPGA说起的深度学习（一）](https://mp.weixin.qq.com/s/oDmwGnVEaZvLSoSincjLFA)
@@ -408,6 +560,8 @@
     - [2023-04-24，在 FPGA 上快速构建 PID 算法](https://mp.weixin.qq.com/s/ozFDxLCCqYkusHCbC0QajQ)
     - [2023-04-24，Verilog“七宗罪”](https://mp.weixin.qq.com/s/mVcp4AJPXk7zmNfEjHNiBw)
     - [2023-05-08，FPGA上的视觉 SLAM](https://mp.weixin.qq.com/s/S2wicdaN_3kkJbexLuQGMw)
+    - [2023-05-22，数字硬件建模SystemVerilog总结（完结篇）](https://mp.weixin.qq.com/s/9dHz9aqAM7WRaCUu4QYkpA)
+    - [2023-05-22，OpenFPGA系列文章总结](https://mp.weixin.qq.com/s/yea1JY2dVy1GqzAc66RRVA)
   - 微信公众号「FPGA之旅」
     - [2022-08-29，FPGA点亮LED灯](https://mp.weixin.qq.com/s/OtBMm6iy8jrpHAl-FUI7XA)
     - [2022-08-29，FPGA实现按键模块](https://mp.weixin.qq.com/s/wgOKGlKHXeyX2FNhTRzfIA)
@@ -444,6 +598,8 @@
     - [2023-05-11，​基于FPGA的实时图像边缘检测系统设计（附代码）](https://mp.weixin.qq.com/s/28TuVKvuaTBV1cv37yNRCw)
     - [2023-05-16，​基于FPGA的单目内窥镜定位系统设计（附代码）](https://mp.weixin.qq.com/s/D0_AIic00y4y1Ice0iUsTA)
     - [2023-05-18，​基于FPGA的CAN总线控制器的设计](https://mp.weixin.qq.com/s/myvp55su7TltPGTYwMZuaQ)
+    - [2023-05-22，基于FPGA的以太网控制器（MAC）设计](https://mp.weixin.qq.com/s/i7yXX3M-kn7nGLI_9LTzSw)
+    - [2023-05-23，如何在 FPGA 中做数学运算](https://mp.weixin.qq.com/s/N0kc-hrOTDywgfwy6SQ6JA)
   - 微信公众号「疯狂的FPGA」
     - [2023-03-09，《FPGA图像加速》第二章-bilibili回播入口](https://mp.weixin.qq.com/s/GEKZkMgKLYlhMSR6TCyUhQ)
     - [2023-04-11，国内唯一的纯FPGA论坛，发布](https://mp.weixin.qq.com/s/a6vliiR-XOftaBA-r6fGYw)
